@@ -23,27 +23,13 @@ Install-Module -Name PowerShellGet –Force
 Install-Module SharePointPnPPowerShellOnline
 ```
 
-## Office CLI
-
-Install [Office CLI](https://pnp.github.io/office365-cli/)
-
-```
-npm i -g @pnp/office365-cli
-```
-
-[JMESPath Documentation](http://jmespath.org/)
-
-```
-npm i -g Jmespath
-```
-
-# PowerShell
-
-## PowerShell Providers
+## Other PowerShell Providers
 
 [Microsoft Online Services Sign-In Assistant for IT Professionals](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
 [Install Requirements](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell)
+
+[SharePoint Online PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/?view=sharepoint-ps)
 
 [Install Windows Management Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=40855)
 
@@ -51,6 +37,48 @@ npm i -g Jmespath
 
 [Office 365 Powershell Documentation](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-[SharePoint Online PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/?view=sharepoint-ps)
+# Using Node as a Dev Tool
 
-[SP PnP Powershell Documenation](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps#cmdlet-overview)
+Installation
+
+```
+npm i -g webpack webpack-cli gulp gulp-cli
+```
+
+[npm CLI Documentation](https://docs.npmjs.com/cli-documentation/)
+
+[npm audit](https://docs.npmjs.com/cli/audit.html) evaluates possible `security problems`
+
+![audit](_images/npm-audit.png)
+
+## Execute Sample Tasks
+
+Run a gulp task: 
+
+```
+gulp babel
+gulp compile-sass
+```
+Run webpack: 
+
+```
+webpack
+```
+> Note: Uses `webpack.config.js` by default
+
+
+# Links & Ressources
+
+[Node.js Versions](https://nodejs.org/en/download/releases/)
+
+[NVM for Windows](https://github.com/coreybutler/nvm-windows)
+
+[Typescript](https://www.typescriptlang.org/)
+
+[Webpack](https://webpack.js.org/)
+
+[Gulp](https://gulpjs.com/)
+
+[Yeoman](https://yeoman.io/)
+
+[Babel](https://babeljs.io/)
