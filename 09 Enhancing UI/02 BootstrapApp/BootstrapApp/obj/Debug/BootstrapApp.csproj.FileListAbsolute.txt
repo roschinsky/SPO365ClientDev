@@ -1,0 +1,5 @@
+D:\SPO365ClientDev\09 Enhancing UI\02 BootstrapApp\BootstrapApp\bin\Debug\BootstrapApp.pdb
+D:\SPO365ClientDev\09 Enhancing UI\02 BootstrapApp\BootstrapApp\obj\Debug\BootstrapApp.csprojAssemblyReference.cache
+D:\SPO365ClientDev\09 Enhancing UI\02 BootstrapApp\BootstrapApp\obj\Debug\BootstrapApp.csproj.CoreCompileInputs.cache
+D:\SPO365ClientDev\09 Enhancing UI\02 BootstrapApp\BootstrapApp\obj\Debug\BootstrapApp.dll
+D:\SPO365ClientDev\09 Enhancing UI\02 BootstrapApp\BootstrapApp\obj\Debug\BootstrapApp.pdb

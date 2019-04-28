@@ -1,0 +1,14 @@
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\MyCsomAppWeb.dll.config
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\MyCsomAppWeb.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\MyCsomAppWeb.pdb
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.IdentityModel.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.IdentityModel.Extensions.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.SharePoint.Client.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.SharePoint.Client.Runtime.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.SharePoint.Client.xml
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\bin\Microsoft.SharePoint.Client.Runtime.xml
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\obj\Debug\MyCsomAppWeb.csprojAssemblyReference.cache
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\obj\Debug\MyCsomAppWeb.csproj.CoreCompileInputs.cache
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\obj\Debug\MyCsomAppWeb.csproj.CopyComplete
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\obj\Debug\MyCsomAppWeb.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomAppWeb\obj\Debug\MyCsomAppWeb.pdb

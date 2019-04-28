@@ -1,0 +1,4 @@
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomApp\bin\Debug\MyCsomApp.pdb
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomApp\obj\Debug\MyCsomApp.csproj.CoreCompileInputs.cache
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomApp\obj\Debug\MyCsomApp.dll
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomApp\obj\Debug\MyCsomApp.pdb

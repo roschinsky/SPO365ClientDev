@@ -2,10 +2,10 @@ if ((Get-PSSnapin "Microsoft.SharePoint.PowerShell" -ErrorAction SilentlyContinu
     Add-PSSnapin "Microsoft.SharePoint.PowerShell"
 }
 
-$site = "http://sp2016";
+$site = "http://sp2019";
 $issuerName = "SPSigningIssuer";
 $issuerId = "2ffbee9b-3a1f-4d7e-b673-866ffa549d27";
-$certPath = "D:\Classes\O365ClientSideDev\00 Ressources\SPSigning.cer";
+$certPath = "SPSigning.cer";
 
 $web = Get-SPWeb -Identity $site; 
 $realm = Get-SPAuthenticationRealm -ServiceContext $web.Site;

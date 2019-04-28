@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="4d164d13-c1dc-4894-885c-87981fcca573" ReceiverAssembly="EventReceivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=485b6dd4a43c84e7" ReceiverClass="EventReceivers.Features.DemoEventReceivers.DemoEventReceiversEventReceiver" Scope="Web" Title="EventReceivers ">
+  <ElementManifests>
+    <ElementManifest Location="AutoTitleReceiver\Elements.xml" />
+    <ElementManifest Location="TitleChangeSyncrReceiver\Elements.xml" />
+  </ElementManifests>
+</Feature>

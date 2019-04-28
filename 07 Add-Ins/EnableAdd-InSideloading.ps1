@@ -5,7 +5,7 @@ $programFiles = [environment]::getfolderpath("programfiles")
 $fullpath = $programFiles + '\SharePoint Online Management Shell\Microsoft.Online.SharePoint.PowerShell\Microsoft.SharePoint.Client.dll'
 add-type -Path $fullpath
 
-$siteurl = 'https://integrationsonline.sharepoint.com/sites/ModernTS'
+$siteurl = 'https://integrationsonline.sharepoint.com/sites/DevGrp'
 $username = 'alexander.pajer@integrations.at'
 $password = Read-Host -AsSecureString 'Enter Password:'
 

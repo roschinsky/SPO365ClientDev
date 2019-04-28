@@ -5,7 +5,7 @@ if ((Get-PSSnapin "Microsoft.SharePoint.PowerShell" -ErrorAction SilentlyContinu
 # Make sure you have created the SecurityTokenIssuer using CreateSecurityTokenIssuer.ps1
 # Run only once or delete bevore creating
 
-$site = "http://sp2016"
+$site = "http://sp2019"
 $appName = "ProviderHosted"
 $clientId = "73beabea-1edc-4def-aec1-a025d6eac822"
 $appFile = "D:\O365ClientSideDev\07 Add-Ins\ProviderHosted\ProviderHosted\bin\Debug\app.publish\1.0.0.0\ProviderHosted.app"

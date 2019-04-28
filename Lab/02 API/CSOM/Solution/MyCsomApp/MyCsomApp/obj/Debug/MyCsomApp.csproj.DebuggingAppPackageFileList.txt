@@ -1,0 +1,1 @@
+D:\SPO365ClientDev\Lab\02 API\CSOM\Solution\MyCsomApp\MyCsomApp\bin\Debug\MyCsomApp.debugapp
