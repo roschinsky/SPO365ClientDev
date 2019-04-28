@@ -1,5 +1,11 @@
 # SharePoint 2019 & Office 365 - Client Side Development Fundamentals 
 
+## Environment Setup
+
+[O365 Tenant Setup](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+
+[Developer PC Setup](01%20Intro/readme.md)
+
 ## Kursbeschreibung 
 
 Durch die zunehmende Bedeutung von Clientseitigen Technologien stehen viele SharePoint Entwickler vor der Herausforderung ihr Skillset in Richtung JavaScript & TypeScript, sowie Open Source Tooling wie Glup, Node.js erweitern zu müssen um für das neue SharePoint Framework gerüstet zu sein 
@@ -156,17 +162,3 @@ SharePoint Framework Basics (SPFx)
 - SharePoint Framework SPFx Overview 
 - When to use SPFx / When to use other Patterns 
 - Implementing SharePoint Framework Web Parts  
-
-# Environment Setup
-
-[O365 Tenant Setup](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-
-[Developer PC Setup](01%20Intro/readme.md)
-
-# Troubleshooting
-
-[Fix potential SSL Issue with Node 8](https://github.com/SharePoint/sp-dev-docs/issues/1002)
-
-Go to `Control Panel` > `Edit System Environment Variables` > Reboot VM
-
-![NoHttp2](_Images/nohttp2.png)

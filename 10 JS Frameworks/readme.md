@@ -1,23 +1,13 @@
-# Configure Sharepoint for Add-Ins
+# JavaScript Frameworks
 
-https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins
+## React
 
-# URLs and Tokens in Add-Ins
+[React Home](https://reactjs.org/)
 
-https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/url-strings-and-tokens-in-sharepoint-add-ins
+[Sample Blog](http://dattabase.com/sharepoint-app-fabric-ui-react-part-1-3/)
 
-# Provider Hosted Add-Ins
+## AngularJS & Angular
 
-## Deployment
+[AngularJS](https://angularjs.org/)
 
-#### Publish Add-In
-
-![Publish](_Images/publish.png)
-
-#### Deploy Provider Hosted App Web
-
-![Publish](_Images/iis.png)
-
-#### Execute Script - DeployProviderHosted.ps1
-
-![Script](_Images/script.png)
+[Angular Home](http://www.angular.io)

@@ -11,13 +11,18 @@ gulp trust-dev-cert
 ## Workbench URL
 
 ```
-http://sp2016/_layouts/15/workbench.aspx
+http://sp2019/_layouts/15/workbench.aspx
 ```
-
-## Fix potential SSL Issue with Node.js & pre 1.4.1 drop
-
-https://github.com/SharePoint/sp-dev-docs/issues/1002
 
 # First Steps
 
 [Getting Started](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part)
+
+
+# Troubleshooting
+
+[Fix potential SSL Issue with Node 8](https://github.com/SharePoint/sp-dev-docs/issues/1002)
+
+Go to `Control Panel` > `Edit System Environment Variables` > Reboot VM
+
+![NoHttp2](_Images/nohttp2.png)
