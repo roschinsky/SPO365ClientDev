@@ -1,0 +1,15 @@
+﻿.ms-PersonaCard.ms-PersonaCard--busy .ms-Persona-presence {
+  background-color: #d93b3b;
+}
+.ms-PersonaCard.ms-PersonaCard--away .ms-Persona-presence {
+  background-color: #ffd200;
+}
+.ms-PersonaCard.ms-PersonaCard--blocked .ms-Persona-presence {
+  background-color: #dedede;
+}
+.ms-PersonaCard.ms-PersonaCard--dnd .ms-Persona-presence {
+  background-color: #c72d25;
+}
+.ms-PersonaCard.ms-PersonaCard--offline .ms-Persona-presence {
+  background-color: #b6cfd8;
+}

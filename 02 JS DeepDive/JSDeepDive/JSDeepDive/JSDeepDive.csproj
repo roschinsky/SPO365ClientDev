@@ -1,0 +1,182 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C227A17B-C333-48E3-85E8-EA7348679F7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JSDeepDive</RootNamespace>
+    <AssemblyName>JSDeepDive</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>19.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.1</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>15.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\JavaScript\Demos.aspx.cs">
+      <DependentUpon>Demos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\JavaScript\Demos.aspx.designer.cs">
+      <DependentUpon>Demos.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomActions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25b6ebf3-773d-4873-9adf-bd252a9f5009}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{1d2baa04-7389-4fea-8ece-b1ff16e069f7}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\JavaScript\bundle\es5-bundle.js.map" />
+    <None Include="Layouts\JavaScript\demos\vouchers.json" />
+    <None Include="Layouts\JavaScript\sass\sass-demo.scss" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13a95aad-a63d-4676-818d-50b49145fbb9}</SharePointProjectItemId>
+    </None>
+    <None Include="News\NewsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7be67ee-d4c5-4fef-b917-51d3ca211974}</SharePointProjectItemId>
+    </None>
+    <None Include="News\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{77487558-2b17-42f6-9433-48dd82aaa5dd}</SharePointProjectItemId>
+    </None>
+    <None Include="package.json" />
+    <None Include="Package\Package.package">
+      <PackageId>{690b77f1-795f-468d-bc95-f9ca66f39b59}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CustomActions\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="gulpfile.js" />
+    <Content Include="Layouts\JavaScript\bundle\bundle.js" />
+    <Content Include="Layouts\JavaScript\bundle\es5-bundle.js" />
+    <Content Include="Layouts\JavaScript\bundle\webpack-bundle.js" />
+    <Content Include="Layouts\JavaScript\css\demo.css" />
+    <Content Include="Layouts\JavaScript\css\domevents.css" />
+    <Content Include="Layouts\JavaScript\css\eventBubbling.css" />
+    <Content Include="Layouts\JavaScript\css\form.css" />
+    <Content Include="Layouts\JavaScript\css\logging.css" />
+    <Content Include="Layouts\JavaScript\css\manipulate.css" />
+    <Content Include="Layouts\JavaScript\css\style.css" />
+    <Content Include="Layouts\JavaScript\css\variables.css" />
+    <Content Include="Layouts\JavaScript\Demos.aspx" />
+    <Content Include="Layouts\JavaScript\demos.aspx.js" />
+    <Content Include="Layouts\JavaScript\demos\closures.html" />
+    <Content Include="Layouts\JavaScript\demos\closures.js" />
+    <Content Include="Layouts\JavaScript\demos\consumingServices.html" />
+    <Content Include="Layouts\JavaScript\demos\consumingServices.js" />
+    <Content Include="Layouts\JavaScript\demos\dates.html" />
+    <Content Include="Layouts\JavaScript\demos\dates.js" />
+    <Content Include="Layouts\JavaScript\demos\domevents.html" />
+    <Content Include="Layouts\JavaScript\demos\domevents.js" />
+    <Content Include="Layouts\JavaScript\demos\es6classes.html" />
+    <Content Include="Layouts\JavaScript\demos\es6classes.js" />
+    <Content Include="Layouts\JavaScript\demos\es6lang.html" />
+    <Content Include="Layouts\JavaScript\demos\es6lang.js" />
+    <Content Include="Layouts\JavaScript\demos\eventBubbling.html" />
+    <Content Include="Layouts\JavaScript\demos\eventBubbling.js" />
+    <Content Include="Layouts\JavaScript\demos\events.html" />
+    <Content Include="Layouts\JavaScript\demos\events.js" />
+    <Content Include="Layouts\JavaScript\demos\form.html" />
+    <Content Include="Layouts\JavaScript\demos\form.js" />
+    <Content Include="Layouts\JavaScript\demos\handsontable.html" />
+    <Content Include="Layouts\JavaScript\demos\handsontable.js" />
+    <Content Include="Layouts\JavaScript\demos\logging.html" />
+    <Content Include="Layouts\JavaScript\demos\logging.js" />
+    <Content Include="Layouts\JavaScript\demos\logic.html" />
+    <Content Include="Layouts\JavaScript\demos\logic.js" />
+    <Content Include="Layouts\JavaScript\demos\manipulate.html" />
+    <Content Include="Layouts\JavaScript\demos\manipulate.js" />
+    <Content Include="Layouts\JavaScript\demos\modules.html" />
+    <Content Include="Layouts\JavaScript\demos\modules.js" />
+    <Content Include="Layouts\JavaScript\demos\objectOrientations.html" />
+    <Content Include="Layouts\JavaScript\demos\objectOrientations.js" />
+    <Content Include="Layouts\JavaScript\demos\promises.html" />
+    <Content Include="Layouts\JavaScript\demos\promises.js" />
+    <Content Include="Layouts\JavaScript\demos\readJSON.html" />
+    <Content Include="Layouts\JavaScript\demos\readJSON.js" />
+    <Content Include="Layouts\JavaScript\demos\referencing.html" />
+    <Content Include="Layouts\JavaScript\demos\referencing.js" />
+    <Content Include="Layouts\JavaScript\demos\selecting.html" />
+    <Content Include="Layouts\JavaScript\demos\selecting.js" />
+    <Content Include="Layouts\JavaScript\demos\testJQuery.html" />
+    <Content Include="Layouts\JavaScript\demos\testJQuery.js" />
+    <Content Include="Layouts\JavaScript\demos\validate.html" />
+    <Content Include="Layouts\JavaScript\demos\validate.js" />
+    <Content Include="Layouts\JavaScript\demos\variables.html" />
+    <Content Include="Layouts\JavaScript\demos\variables.js" />
+    <Content Include="Layouts\JavaScript\images\lamp_off.png" />
+    <Content Include="Layouts\JavaScript\images\lamp_on.png" />
+    <Content Include="Layouts\JavaScript\lib\jquery\jquery-3.1.1.min.js" />
+    <Content Include="Layouts\JavaScript\lib\moment\moment.js" />
+    <Content Include="Layouts\JavaScript\webpack\app.js" />
+    <Content Include="Layouts\JavaScript\webpack\bundle.js" />
+    <Content Include="Layouts\JavaScript\webpack\login.js" />
+    <Content Include="Layouts\JavaScript\webpack\utils.js" />
+    <Content Include="News\Elements.xml" />
+    <Content Include="News\NewsInstance\Elements.xml" />
+    <Content Include="News\Schema.xml" />
+    <Content Include="webpack.config.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

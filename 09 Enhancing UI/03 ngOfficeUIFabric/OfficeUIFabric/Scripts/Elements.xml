@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\lib\Angular\angular.js" Url="Scripts/lib/Angular/angular.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Angular\angular-route.min.js" Url="Scripts/lib/Angular/angular-route.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Angular\angular-sanitize.min.js" Url="Scripts/lib/Angular/angular-sanitize.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\UIFabric\fabric.min.js" Url="Scripts/lib/UIFabric/fabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\UIFabric\jquery.fabric.min.js" Url="Scripts/lib/UIFabric/jquery.fabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\UIFabric\ngOfficeUiFabric.min.js" Url="Scripts/lib/UIFabric/ngOfficeUiFabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\UIFabric\fabric.min.css" Url="Scripts/lib/UIFabric/fabric.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\UIFabric\fabric.components.min.css" Url="Scripts/lib/UIFabric/fabric.components.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\jQuery\jquery.min.js" Url="Scripts/lib/jQuery/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Bootstrap\bootstrap.min.css" Url="Scripts/lib/Bootstrap/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Bootstrap\bootstrap.min.js" Url="Scripts/lib/Bootstrap/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controller.js" Url="Scripts/controller.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Pickerdate\picker.js" Url="Scripts/lib/Pickerdate/picker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\Pickerdate\picker.date.js" Url="Scripts/lib/Pickerdate/picker.date.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lib\AngularUIBootstrap\ui-bootstrap-tpls-2.5.0.js" Url="Scripts/lib/AngularUIBootstrap/ui-bootstrap-tpls-2.5.0.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.min.js.map" Url="Scripts/angular.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.min.js" Url="Scripts/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular.js" Url="Scripts/angular.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-mocks.js" Url="Scripts/angular-mocks.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fabric.min.js" Url="Scripts/jquery.fabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fabric.js" Url="Scripts/jquery.fabric.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ngOfficeUiFabric.min.js" Url="Scripts/ngOfficeUiFabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ngOfficeUiFabric.js" Url="Scripts/ngOfficeUiFabric.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

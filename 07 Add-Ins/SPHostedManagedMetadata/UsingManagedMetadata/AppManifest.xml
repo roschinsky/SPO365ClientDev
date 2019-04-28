@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="UsingManagedMetadata"
+     ProductID="{59771838-2e20-455f-8618-d560b667b779}"
+     Version="1.0.0.2"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>UsingManagedMetadata</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/taxonomy" Right="Write" />
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Read" />
+  </AppPermissionRequests>
+</App>

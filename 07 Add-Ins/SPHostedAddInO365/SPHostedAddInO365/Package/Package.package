@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d927a998-af09-4a53-a4db-205be4da1dbe" 
+        solutionId="d927a998-af09-4a53-a4db-205be4da1dbe" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPHostedAddInO365"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="36402180-2975-45b9-90d0-acffe5620600" />
+  </features>
+</package>

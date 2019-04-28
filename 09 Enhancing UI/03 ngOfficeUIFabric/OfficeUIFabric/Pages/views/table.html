@@ -1,0 +1,12 @@
+﻿<div class="ms-Table">
+    <div class="ms-Table-row">
+        <span class="ms-Table-cell ms-font-xl">Title</span>
+        <span class="ms-Table-cell ms-font-xl">Topic</span>
+        <span class="ms-Table-cell ms-font-xl">Expires</span>
+    </div>
+    <div style="cursor: pointer" class="ms-Table-row" ng-repeat="n in news | orderBy:table.orderBy:!table.orderAsc" ng-click="showNewsItem(n)">
+        <span class="ms-Table-cell ms-font-xl">{{n.Title}}</span>
+        <span class="ms-Table-cell ms-font-xl">{{n.Topic.Label}}</span>
+        <span class="ms-Table-cell ms-font-xl">{{n.Expires | date}}</span>
+    </div>
+</div>

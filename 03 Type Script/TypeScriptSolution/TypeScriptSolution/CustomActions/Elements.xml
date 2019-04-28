@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="ClientSideDevFund.Typescript"
+    Description="Basics"
+    Title="TypeScript Solution"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu">
+    <UrlAction Url="~site/_layouts/15/TypeScriptSolution/TypeScriptPage.aspx" />
+  </CustomAction>
+</Elements>

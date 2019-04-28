@@ -1,0 +1,22 @@
+{
+  "name": "usingpnpjs",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "alexander.pajer@integrations.at",
+  "license": "ISC",
+  "dependencies": {
+    "@pnp/common": "^1.2.1",
+    "@pnp/logging": "^1.2.1",
+    "@pnp/odata": "^1.2.1",
+    "@pnp/pnpjs": "^1.2.1",
+    "@pnp/sp": "^1.2.1",
+    "es6-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}

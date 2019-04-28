@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="8fcdc90f-83c3-489f-a7a2-e6567e0c0d7c" 
+        solutionId="8fcdc90f-83c3-489f-a7a2-e6567e0c0d7c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="AccessRessources"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="20e65b35-0b3b-474a-a69b-ae429ac8ac01" />
+  </features>
+</package>

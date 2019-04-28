@@ -1,0 +1,15 @@
+<mat-card class="card">
+  <mat-card-title-group>
+    <mat-card-title>{{user?.userName}}</mat-card-title>
+    <mat-card-subtitle>{{user!=null ? 'You are now logged in with userInfo:' : 'Please log in'}}</mat-card-subtitle>
+  </mat-card-title-group>
+  <mat-card-content>
+    <pre>{{user | json}}</pre>
+  </mat-card-content>
+  <mat-card-actions align="start">
+    <button mat-button (click)="getProfile()">Get Profile</button>
+    <button mat-button (click)="getPhoto()" *ngIf="profile">Get Photo</button>
+  </mat-card-actions>
+</mat-card>
+
+<app-profile *ngIf="profile" [profile]="profile"></app-profile>

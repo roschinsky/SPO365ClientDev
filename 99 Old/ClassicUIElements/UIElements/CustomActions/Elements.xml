@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="Integrations.CustomActions.UIElements"
+                Title="UI Elements"
+                ImageUrl="/_layouts/images/actionssettings.gif"
+                GroupId="SiteActions"
+                Location="Microsoft.SharePoint.StandardMenu"
+                Sequence="1001"
+                Rights="DeleteListItems"
+                Description="UI Elements Demo">
+    <UrlAction Url="~site/_layouts/15/UIElements/Demo.aspx"/>
+  </CustomAction>
+  <!--Custom Actions-->
+  
+  <!--Token Documentation
+  SharePoint 2010
+  http://msdn.microsoft.com/en-us/library/ms431831%28v=office.14%29.aspx
+
+  SharePoint 2013 Server Side
+  http://msdn.microsoft.com/en-us/library/ms431831%28v=office.15%29.aspx
+
+  SharePoint 2013 Apps
+  http://msdn.microsoft.com/en-us/library/jj163816.aspx-->
+
+  <!--Site Actions-->
+  <CustomAction Id="Integrations.CustomActions.SiteActions"
+    Title="Persisting Values Demo"
+    ImageUrl="/_layouts/images/actionssettings.gif"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1001"
+    Rights="DeleteListItems"
+    Description="User SharePoint Notifications">
+    <UrlAction Url="~site/_layouts/15/UIElements/CustomActionsTarget.aspx"/>
+  </CustomAction>
+
+  <CustomAction Id="Integrations.CustomActions.JavaScript"
+    Title="Trigger JS based Action"
+    ImageUrl="/_layouts/images/actionssettings.gif"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1001"
+    Rights="DeleteListItems"
+    Description="Triggers some custom JavaScript">
+    <UrlAction Url="javascript:void(console.log('Actions triggerd from JavaScript'));"/>
+  </CustomAction>
+
+  <!--Edit Control Block akn Document Menu-->
+  <CustomAction Id="Integrations.CopyTo"
+		RegistrationType="List"
+		RegistrationId="101"
+		Location="EditControlBlock"
+		Sequence="300"
+		Title="Copy To Destination">
+    <UrlAction Url="~site/_layouts/15/UIElements/CustomActionsTarget.aspx?ItemId={ItemId}&amp;ListId={ListId}"/>
+  </CustomAction>
+  
+  <!--Site Settings-->
+  <CustomActionGroup
+   Id="Integrations.CustomActions.SiteSettingsGroup"
+   Location="Microsoft.SharePoint.SiteSettings"
+   Title="Document Library Extensions"
+   Sequence="100"
+   ImageUrl="/_layouts/images/demo.png"
+   Description="Settings for Document Library Extensions"/>
+  <CustomAction
+		Id="Integrations.CustomActions.SiteSettings"
+		GroupId="Integrations.CustomActions.SiteSettingsGroup"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Enable Creator-Owner-Permissions" >
+    <UrlAction Url="~site/_layouts/15/UIElements/CustomActionsTarget.aspx" />
+  </CustomAction>
+  
+  <!--List Settings-->
+  <CustomAction
+		Id="Integrations.CustomActions"
+		GroupId="GeneralSettings"
+		Location="Microsoft.SharePoint.ListEdit"
+		Sequence="10"
+		Title="Allowed File Types" >
+    <UrlAction Url="~site/_layouts/15/UIElements/CustomActionsTarget.aspx?ListId={ListId}" />
+  </CustomAction>
+  <!--Notification-->
+  <CustomAction
+    Description="Notification"
+    Id="Contoso.Ribbon.Library.Notification"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Share.Controls._children">
+          <Button
+            Id="Contoso.Ribbon.Library.NotificationButton"
+            Command="Contoso.Notification"
+            Image32by32="/_layouts/images/HTML32.GIF"
+            LabelText="Notification"
+            TemplateAlias="o2"
+            Sequence="20" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="Contoso.Notification"
+          CommandAction="javascript:SP.UI.Notify.addNotification('Hello World!', false);" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <!--Information Bar-->
+  <CustomAction
+    Description="Status bar message"
+    Id="Contoso.Ribbon.Library.StatusBarMessage"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Share.Controls._children">
+          <Button
+            Id="Contoso.Ribbon.Library.StatusBarButton"
+            Command="Contoso.StatusBarMessage"
+            Image32by32="/_layouts/images/HTML32.GIF"
+            LabelText="Display Status Message"
+            TemplateAlias="o2"
+            Sequence="20" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="Contoso.StatusBarMessage"
+          CommandAction="javascript:strStatusID = SP.UI.Status.addStatus('Information:', 'Please add a descriptive comment to all check-ins', true); SP.UI.Status.setStatusPriColor(strStatusID, 'yellow');" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

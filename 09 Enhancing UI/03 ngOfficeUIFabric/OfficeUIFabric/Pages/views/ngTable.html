@@ -1,0 +1,18 @@
+﻿<div id="tblNews">
+    <uif-table>
+        <uif-table-head>
+            <uif-table-row>
+                <uif-table-header uif-order-by="Title">Title</uif-table-header>
+                <uif-table-header uif-order-by="Topic">Topic</uif-table-header>
+                <uif-table-header uif-order-by="Expires">Expires</uif-table-header>
+            </uif-table-row>
+        </uif-table-head>
+        <uif-table-body>
+            <uif-table-row ng-repeat="n in news | orderBy:table.orderBy:!table.orderAsc">
+                <uif-table-cell>{{n.Title}}</uif-table-cell>
+                <uif-table-cell>{{n.Topic.Label}}</uif-table-cell>
+                <uif-table-cell>{{n.Expires | date}}</uif-table-cell>
+            </uif-table-row>
+        </uif-table-body>
+    </uif-table>
+</div>

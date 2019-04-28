@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="MastringJSDevelopment.Angular"
+    Description="Angular"
+    Title="Angular"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu">
+    <UrlAction Url="~site/_layouts/15/AngularCRUD/Angular.aspx" />
+  </CustomAction>
+</Elements>

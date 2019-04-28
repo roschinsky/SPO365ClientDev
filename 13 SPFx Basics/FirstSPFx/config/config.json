@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-weleda-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWeleda/HelloWeledaWebPart.js",
+          "manifest": "./src/webparts/helloWeleda/HelloWeledaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWeledaWebPartStrings": "lib/webparts/helloWeleda/loc/{locale}.js"
+  }
+}

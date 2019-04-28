@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row nowrap;
+  align-content: space-between;
+}
+
+.menu {
+  flex-direction: column;
+  flex-grow: 2;
+  padding: 1rem;
+  margin: 0.5 rem;
+}
+
+.workbench {
+  flex-direction: column;
+  flex-grow: 5;
+  padding: 1rem;
+  margin: 0.5 rem;
+}
+
+div.menu a {
+  cursor: pointer;
+  display: block;
+}

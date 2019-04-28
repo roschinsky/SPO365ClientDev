@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="eventsApp">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/angular/angular.js"></script>
+    <script src="/lib/angular-route/angular-route.js"></script>
+    <script src="//secure.aadcdn.microsoftonline-p.com/lib/1.0.0/js/adal.min.js"></script>
+    <script src="//secure.aadcdn.microsoftonline-p.com/lib/1.0.0/js/adal-angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body> 
+    <div id="container">
+        <header>
+            <nav class="main-nav">
+                <ul>
+                    <li><a ng-href="#home">Home</a></li>
+                    <li><a ng-href="#events">Events</a></li>
+                    <li><a href="https://github.com/AzureAD/azure-activedirectory-library-for-js" target="_blank">ADAL JS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main"></div>
+        <div id="content" ng-view="">
+            
+        </div>
+    </div>
+</body>
+</html>

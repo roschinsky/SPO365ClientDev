@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="aa150f3d-e2f7-4ad9-b736-0d75f06618b2" 
+        solutionId="aa150f3d-e2f7-4ad9-b736-0d75f06618b2" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="OfficeUIFabric"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="abf47aa6-233a-40e2-bc69-06570637ecaa" />
+  </features>
+</package>

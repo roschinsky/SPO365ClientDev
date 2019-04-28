@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2818a786-4249-4bc4-ba59-50fb7c01b83c" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="JSOMBasics.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\JSOMBasics\lib\jquery-2.1.4.min.js" />
+    <TemplateFile Location="Layouts\JSOMBasics\usingJSOM.aspx" />
+    <TemplateFile Location="Layouts\JSOMBasics\usingJSOM.ts" />
+    <TemplateFile Location="Layouts\JSOMBasics\usingJSOM.js" />
+    <TemplateFile Location="Layouts\JSOMBasics\usingJSOM.js.map" />
+    <TemplateFile Location="LAYOUTS\1033\ondemand.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="JSOMBasics_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

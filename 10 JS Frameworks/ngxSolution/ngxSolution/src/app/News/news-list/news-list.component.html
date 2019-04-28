@@ -1,0 +1,19 @@
+<table *ngIf="items">
+    <tr>
+        <th>Title</th>
+        <th>Body</th>
+        <th>Created</th>
+        <th>Modified</th>
+    </tr>
+    <tr *ngFor="let n of items" (click)="showNews(n)">
+        <td>{{n.Title}}</td>
+        <td>{{n.Body}}</td>
+        <td>{{n.Created}}</td>
+        <td>{{n.Modified}</td>
+    </tr>
+</table>
+
+<div *ngIf="current">
+    <div>Current Item</div>
+    <div>{{current | json}}</div>
+</div>

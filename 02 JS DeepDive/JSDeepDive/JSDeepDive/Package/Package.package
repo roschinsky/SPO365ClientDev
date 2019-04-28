@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="690b77f1-795f-468d-bc95-f9ca66f39b59" solutionId="690b77f1-795f-468d-bc95-f9ca66f39b59" resetWebServer="false" sharePointProductVersion="16.0" name="JSDeepDive" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="1d2baa04-7389-4fea-8ece-b1ff16e069f7" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="13a95aad-a63d-4676-818d-50b49145fbb9" />
+  </projectItems>
+</package>

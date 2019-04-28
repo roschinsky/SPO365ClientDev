@@ -1,0 +1,9 @@
+[
+    {"url": "types", "title": "Types & Arrays", "component": "TypesComponent"},
+    {"url": "classes", "title": "Classes", "component": "ClassesComponent"},
+    {"url": "functions", "title": "Functions", "component": "FunctionsComponent"},    
+    {"url": "interfaces", "title": "Interfaces", "component": "InterfacesComponent"},    
+    {"url": "gernerics", "title": "Generics", "component": "GenericsComponent"},    
+    {"url": "modules", "title": "Modules, Namespaces, Imports", "component": "ModulesComponent"},
+    {"url": "services", "title": "Consuming Services", "component": "ServicesComponent"}
+]

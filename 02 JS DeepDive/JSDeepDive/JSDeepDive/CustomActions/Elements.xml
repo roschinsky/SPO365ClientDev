@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="MastringJSDevelopment.Basics"
+    Description="Basics"
+    Title="JavaScript Demos"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu">
+    <UrlAction Url="~site/_layouts/15/JavaScript/Demos.aspx" />
+  </CustomAction>
+</Elements>

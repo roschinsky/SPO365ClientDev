@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="views\ngForm.html" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\table.html" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\ngTable.html" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\popup.html" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\basics.html" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\basics.js" Target="Pages\views\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AppWebNews"
+                OnQuickLaunch="TRUE"
+                TemplateType="104"
+                FeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104"
+                Url="Lists/AppWebNews"
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Predefined News 1 AppWeb</Field>
+          <Field Name="Body">Lorem ipsum ... </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Predefined News 2</Field>
+          <Field Name="Body">Ipsum lorem ... </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

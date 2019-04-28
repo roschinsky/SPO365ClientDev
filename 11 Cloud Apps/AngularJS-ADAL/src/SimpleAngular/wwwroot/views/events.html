@@ -1,0 +1,21 @@
+﻿<div>
+    {{message}}
+</div>
+<div>    
+    <table style="width:90%">
+        <tr>
+            <th>Event</th>
+            <th>Start</th>
+            <th>Start Time</th>
+            <th>End</th>            
+            <th>End Time</th>            
+        </tr>
+        <tr data-ng-repeat="e in events">
+            <td>{{e.subject}}</td>
+            <td>{{e.start.dateTime | date}}</td>
+            <td>{{e.start.dateTime | date:"hh:mm a" }}</td>            
+            <td>{{e.end.dateTime | date}}</td>
+            <td>{{e.end.dateTime | date:"hh:mm a"  }}</td>
+        </tr>
+    </table>
+</div>

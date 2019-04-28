@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="44807ae1-8a4b-47fe-b070-1c835d5dc02e" 
+        solutionId="44807ae1-8a4b-47fe-b070-1c835d5dc02e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="UsingManagedMetadata"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="ce36b92c-811c-443e-a489-03d6deea36ae" />
+  </features>
+</package>

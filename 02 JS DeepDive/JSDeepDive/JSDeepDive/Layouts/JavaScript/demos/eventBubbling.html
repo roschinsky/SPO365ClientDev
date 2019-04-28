@@ -1,0 +1,18 @@
+﻿<link href="/_layouts/15/JavaScript/css/eventBubbling.css" rel="stylesheet" />
+
+<div class="bubblingContainer">
+    <ul>
+        <li><a href="javascript:removeAll()">Remove All</a></li>
+        <li><a href="javascript:addEvt(1)">Add Handler to Outer Div</a></li>
+        <li><a href="javascript:addEvt(2)">Add Handler to Middle Div</a></li>
+        <li><a href="javascript:addEvt(3)">Add Handler to Inner Div</a></li>
+        <li><a href="javascript:tooglePropagation()">Toggle Evt Propagation</a></li>
+    </ul>
+
+    <div id="div1" class="bubbleDiv">
+        <div id="div2" class="bubbleDiv">
+            <div id="div3" class="bubbleDiv">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+﻿body{
+	font-size:87.5%;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.7em;
+	text-align:left;
+}
+
+#container{
+	margin:0 auto;
+	width:80%;
+	overflow:auto;
+	clear:both;	
+}
+
+.main-nav {
+    background: #0072C6;
+    color: white;    
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav ul {
+    padding-left: 0px
+}
+
+.main-nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    padding-left: 10px
+}
+
+#content{
+	overflow:auto;
+	width:70%;
+	float:left;
+    text-align: justify;
+    padding: 10px       
+}
+
+ .tbl {
+    display: table;
+    width: 100%;
+}
+
+ .tblRow {
+    display: table-row;
+    width: 100%
+ }
+
+ .tblRow div {
+     padding-left: 10px;
+     padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle
+ }
+
+ .action-nav {
+    -webkit-padding-start: 0px;
+}
+
+.action-nav li {
+    display: inline;
+}
+
+.div-left-margin {
+    padding-left: 10px;
+     padding-right: 10px;
+}
+
+input, select{ 
+    width: 100%;
+      }
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto !important;
+}

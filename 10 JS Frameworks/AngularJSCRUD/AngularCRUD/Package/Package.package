@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="baa92bbe-18fc-41de-aa2d-72665d17f998" solutionId="baa92bbe-18fc-41de-aa2d-72665d17f998" resetWebServer="false" sharePointProductVersion="16.0" name="AngularCRUD" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6775b9cf-f618-47a8-8342-8e9af3316a3d" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="0463feca-50da-4a32-8e37-11024520b29b" />
+  </projectItems>
+</package>

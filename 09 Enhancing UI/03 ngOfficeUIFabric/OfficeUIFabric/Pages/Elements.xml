@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\views\ngForm.html" Url="Pages/views/ngForm.html" ReplaceContent="TRUE" />
+    <File Path="Pages\views\table.html" Url="Pages/views/table.html" ReplaceContent="TRUE" />
+    <File Path="Pages\views\ngTable.html" Url="Pages/views/ngTable.html" ReplaceContent="TRUE" />
+    <File Path="Pages\views\popup.html" Url="Pages/views/popup.html" ReplaceContent="TRUE" />
+    <File Path="Pages\views\basics.html" Url="Pages/views/basics.html" ReplaceContent="TRUE" />
+    <File Path="Pages\views\basics.js" Url="Pages/views/basics.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,41 @@
+﻿<div class="ms-Grid-row ms-Grid">
+    <h3 class="section-divider"><uif-icon uif-type="circleInfo"></uif-icon>{{employeeForm}}</h3>
+    <div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6">
+        <!-- Textbox component -->
+        <uif-textfield uif-label="Employee Name" ng-model="terminationRequest.Title"></uif-textfield>
+        <!-- Dropdown component -->
+        <uif-label>Department:</uif-label>
+        <uif-dropdown ng-model="user.department">
+            <uif-dropdown-option value="{{key}}" ng-repeat="(key, value) in Departments" title="{{value}}">{{value}}</uif-dropdown-option>
+        </uif-dropdown>
+        <!-- Date picker component-->
+        <uif-label>Last Day of Work:</uif-label>
+        <uif-datepicker ng-model="terminationRequest.LastDayOfWork"></uif-datepicker>
+        <!-- Textbox component -->
+        <uif-textfield uif-label="Reason for Termination" ng-model="terminationRequest.ReasonForTermination"></uif-textfield>
+        <!-- Date picker component-->
+        <uif-label>Next Job Start Date:</uif-label>
+        <uif-datepicker ng-model="terminationRequest.NextJobStartDate"></uif-datepicker>
+        <uif-textfield uif-label="Next Place of Employeement" ng-model="terminationRequest.NewPlaceEmployment"></uif-textfield>
+        <!-- Choice field component -->
+    </div>
+    <div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6">
+        <!-- Textbox component -->
+        <uif-textfield uif-label="Remaining PTO Hours" ng-model="terminationRequest.PTO"></uif-textfield>
+        <!-- Textbox component -->
+        <uif-choicefield-group ng-model="terminationRequest.WasTwoWeekNoticeGiven">
+            <uif-choicefield-group-title><label class="ms-Label is-required">Was Two Week Notice Given:</label></uif-choicefield-group-title>
+            <uif-choicefield-option uif-type="radio" value="true">Yes</uif-choicefield-option>
+            <uif-choicefield-option uif-type="radio" value="false">No</uif-choicefield-option>
+        </uif-choicefield-group>
+        <!-- Date picker component -->
+        <uif-label>Date of Notice:</uif-label>
+        <uif-datepicker ng-model="terminationRequest.DateOfNotice"></uif-datepicker><!-- Text area component -->
+        <uif-textfield ng-model="terminationRequest.HRComments" uif-label="Comments:" uif-multiline="true"></uif-textfield>
+        <div>
+            <!-- Primary button components-->
+            <uif-button type="button" data-ng-click="submitRequest(terminationRequest)" uif-type="primary">Submit</uif-button>
+            <uif-button type="button" data-ng-click="cancel()" uif-type="command">Cancel</uif-button>
+        </div>
+    </div>
+</div>

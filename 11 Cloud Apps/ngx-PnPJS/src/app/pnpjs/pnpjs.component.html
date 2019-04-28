@@ -1,0 +1,7 @@
+<div class="card text-center">
+    <div class="card-title">{{userMail}}</div>
+    <div class="card-body">
+        <a class="btn btn-primary" (click)="getWebTitle()">Get Web Title</a>
+        <p *ngIf="web" class="card-text">Welcome to {{web }}</p>
+    </div>
+</div>

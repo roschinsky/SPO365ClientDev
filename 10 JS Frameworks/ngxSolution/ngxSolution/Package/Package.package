@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="735305be-4a9f-400f-ac0d-74e8327ae7f1" solutionId="735305be-4a9f-400f-ac0d-74e8327ae7f1" resetWebServer="false" sharePointProductVersion="16.0" name="ngxSolution" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="81027da8-adfd-4ec9-8729-bf63c8e0d85f" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="83316a29-a2c1-4f1d-a589-acbac79be163" />
+  </projectItems>
+</package>

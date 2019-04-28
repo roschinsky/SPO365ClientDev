@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" />
+    <File Path="Scripts\sp.ui.controls.js" Url="Scripts/sp.ui.controls.js" />
+    <File Path="Scripts\angular.js" Url="Scripts/angular.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-route.min.js" Url="Scripts/angular-route.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.css" Url="Scripts/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.min.js" Url="Scripts/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-sanitize.min.js" Url="Scripts/angular-sanitize.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="Integrations.ngxSolution"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1000"
+    Title="ngxSolution">
+    <UrlAction Url="_layouts/15/ngxSolution/ngxHost.aspx"/>
+  </CustomAction>
+</Elements>

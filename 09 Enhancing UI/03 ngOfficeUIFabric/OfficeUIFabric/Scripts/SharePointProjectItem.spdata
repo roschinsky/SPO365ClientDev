@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="lib\Angular\angular.js" Target="Scripts\lib\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Angular\angular-route.min.js" Target="Scripts\lib\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Angular\angular-sanitize.min.js" Target="Scripts\lib\Angular\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\UIFabric\fabric.min.js" Target="Scripts\lib\UIFabric\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\UIFabric\jquery.fabric.min.js" Target="Scripts\lib\UIFabric\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\UIFabric\ngOfficeUiFabric.min.js" Target="Scripts\lib\UIFabric\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\UIFabric\fabric.min.css" Target="Scripts\lib\UIFabric\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\UIFabric\fabric.components.min.css" Target="Scripts\lib\UIFabric\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\jQuery\jquery.min.js" Target="Scripts\lib\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="app.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Bootstrap\bootstrap.min.css" Target="Scripts\lib\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Bootstrap\bootstrap.min.js" Target="Scripts\lib\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="controller.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Pickerdate\picker.js" Target="Scripts\lib\Pickerdate\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\Pickerdate\picker.date.js" Target="Scripts\lib\Pickerdate\" Type="ElementFile" />
+    <ProjectItemFile Source="lib\AngularUIBootstrap\ui-bootstrap-tpls-2.5.0.js" Target="Scripts\lib\AngularUIBootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.min.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="angular-mocks.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.fabric.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.fabric.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ngOfficeUiFabric.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="ngOfficeUiFabric.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

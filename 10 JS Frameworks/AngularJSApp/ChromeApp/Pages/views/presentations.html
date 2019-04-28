@@ -1,0 +1,23 @@
+﻿
+<div>
+    <label>{{ "Presentations for workshop:" + workshop}}</label>
+</div>
+<div>
+    <table id="reposTbl" class="table table-striped table-bordered table-hover">
+        <colgroup>
+            <col style="width: 90%" />
+            <col style="width: 10%" />
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th><span ng-click="newReading()">Add</span></th>
+        </tr>
+        </thead>
+        <tbody id="tblTrainings">
+        <tr ng-repeat="slide in presentations">
+            <td colspan="2">{{slide.Title}}</td>                
+        </tr>
+        </tbody>
+    </table>
+</div>

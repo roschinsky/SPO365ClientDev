@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="315ea2c8-ca4d-43bd-8ffb-7558ebc782c6" solutionId="315ea2c8-ca4d-43bd-8ffb-7558ebc782c6" resetWebServer="false" sharePointProductVersion="16.0" name="UIElements" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6ba1746b-cc6f-44c0-afcf-b51d9b53ac74" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="f5a08a45-6c07-4db8-8fc7-eccc3f9a9aa7" />
+  </projectItems>
+</package>
