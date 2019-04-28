@@ -1,27 +1,27 @@
+# Customize the User Interface
+
+# CSS Standards & UI Frameworks
+
+[Bootstrap](https://getbootstrap.com/docs/3.3/)
+
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+[SaSS](https://sass-lang.com)
+
 # Office UI Fabric
 
-https://developer.microsoft.com/en-us/fabric
+[Office UI Fabric Home](https://developer.microsoft.com/en-us/fabric)
 
-# Bootstrap v3
+[Office UI Fabric JavaScript](https://developer.microsoft.com/en-us/fabric-js)
 
-https://getbootstrap.com/docs/3.3/
+# Modern UI
 
-# Flexbox
+[Customizing the "modern" experiences in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations)
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+[Column Formatting](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
+[View Formatting](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 
-# To Integrate
-
-Customizations
-
-https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries
-
-List & Column Formatting
-
-https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting
-
-Site Theming
-
-https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview
+[Site Theming](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)

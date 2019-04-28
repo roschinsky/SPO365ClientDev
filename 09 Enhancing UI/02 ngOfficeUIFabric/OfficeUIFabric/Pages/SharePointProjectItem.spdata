@@ -9,5 +9,6 @@
     <ProjectItemFile Source="views\popup.html" Target="Pages\views\" Type="ElementFile" />
     <ProjectItemFile Source="views\basics.html" Target="Pages\views\" Type="ElementFile" />
     <ProjectItemFile Source="views\basics.js" Target="Pages\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\picker.html" Target="Pages\views\" Type="ElementFile" />
   </Files>
 </ProjectItem>

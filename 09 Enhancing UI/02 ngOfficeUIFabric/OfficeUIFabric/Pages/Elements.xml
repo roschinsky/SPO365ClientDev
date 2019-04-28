@@ -8,5 +8,6 @@
     <File Path="Pages\views\popup.html" Url="Pages/views/popup.html" ReplaceContent="TRUE" />
     <File Path="Pages\views\basics.html" Url="Pages/views/basics.html" ReplaceContent="TRUE" />
     <File Path="Pages\views\basics.js" Url="Pages/views/basics.js" ReplaceContent="TRUE" />
+    <File Path="Pages\views\picker.html" Url="Pages/views/picker.html" ReplaceContent="TRUE" />
   </Module>
 </Elements>

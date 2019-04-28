@@ -97,6 +97,7 @@
     <Content Include="Pages\views\ngForm.html" />
     <Content Include="Pages\views\ngTable.html" />
     <Content Include="Content\person.jpg" />
+    <Content Include="Pages\views\picker.html" />
     <Content Include="Pages\views\popup.html" />
     <Content Include="Pages\views\table.html" />
     <Content Include="Scripts\angular-mocks.js" />
