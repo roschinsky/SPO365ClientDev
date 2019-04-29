@@ -27,7 +27,6 @@ namespace GraphService
 
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
             var options = new DefaultFilesOptions();
             options.DefaultFileNames.Clear();
             options.DefaultFileNames.Add("app.html");

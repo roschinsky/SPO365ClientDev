@@ -6,7 +6,7 @@ var cfg = {
     graphApiUri: "https://graph.microsoft.com",
     sharePointUri: "https://integrationsonline.sharepoint.com" // Replace with your Tenant
   },
-  returnUrl: "http://localhost:5000"
+  returnUrl: "https://localhost:5001"
 };
 
 var gc;
@@ -61,7 +61,7 @@ function doRead() {
   });
 }
 
-function creatEvent() {
+function createEvent() {
   var evt = {
     Subject: "A Graph Event",
     Body: {
