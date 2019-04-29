@@ -23,7 +23,7 @@ export class PnPJsComponent implements OnInit {
 		var authContext = new AuthenticationContext(environment.config);
 
 		var isCallback = authContext.isCallback(window.location.hash);
-		authContext.handleWindowCallback();
+		authContext.handleWindowCallback(false);
 
 		if (isCallback && !authContext.getLoginError()) {
 			console.log('Login error');
