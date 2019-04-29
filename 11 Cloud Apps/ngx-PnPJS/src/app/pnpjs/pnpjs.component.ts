@@ -1,56 +1,55 @@
-import { Component, OnInit } from "@angular/core";
-import { sp } from "@pnp/sp";
-import { AdalService } from "adal-angular4";
-import { environment } from "../../environments/environment";
+import { Component, OnInit } from '@angular/core';
+import { sp } from '@pnp/sp';
+import { AdalService } from 'adal-angular4';
+import { environment } from '../../environments/environment';
 
 @Component({
-  selector: "app-pnpjs",
-  templateUrl: "./pnpjs.component.html",
-  styleUrls: ["./pnpjs.component.scss"]
+	selector: 'app-pnpjs',
+	templateUrl: './pnpjs.component.html',
+	styleUrls: [ './pnpjs.component.scss' ]
 })
 export class PnPJsComponent implements OnInit {
-  constructor(private adalService: AdalService) {}
+	constructor(private adalService: AdalService) {
+		this.tenant = environment.config.tenantName;
+	}
 
-  userMail: string;
-  web: string;
+	userMail: string;
+	web: string;
 
-  ngOnInit() {
-    this.adalService.init(environment.config);
-    var authContext = new AuthenticationContext(environment.config);
+	private readonly tenant;
 
-    var isCallback = authContext.isCallback(window.location.hash);
-    authContext.handleWindowCallback();
+	ngOnInit() {
+		this.adalService.init(environment.config);
+		var authContext = new AuthenticationContext(environment.config);
 
-    if (isCallback && !authContext.getLoginError()) {
-      console.log("Login error");
-    }
+		var isCallback = authContext.isCallback(window.location.hash);
+		authContext.handleWindowCallback();
 
-    var user = authContext.getCachedUser();
-    if (!user) {
-      authContext.login();
-    } else {
-      this.userMail = user.userName;
-    }
+		if (isCallback && !authContext.getLoginError()) {
+			console.log('Login error');
+		}
 
-    this.adalService
-      .acquireToken(environment.config.endpoints.sharePointUri)
-      .subscribe(token => {
-        sp.setup({
-          sp: {
-            headers: {
-              Authorization: "Bearer " + token,
-              Accept: "application/json;odata=verbose"
-            },
-            baseUrl: "https://integrationsonline.sharepoint.com"
-          }
-        });
-      });
-  }
+		var user = authContext.getCachedUser();
+		if (!user) {
+			authContext.login();
+		} else {
+			this.userMail = user.userName;
+		}
 
-  getWebTitle(): void {
-    sp.web
-      .select()
-      .get()
-      .then(web => (this.web = web.Title));
-  }
+		this.adalService.acquireToken(environment.config.endpoints.sharePointUri).subscribe((token) => {
+			sp.setup({
+				sp: {
+					headers: {
+						Authorization: 'Bearer ' + token,
+						Accept: 'application/json;odata=verbose'
+					},
+					baseUrl: `https://${this.tenant}.sharepoint.com`
+				}
+			});
+		});
+	}
+
+	getWebTitle(): void {
+		sp.web.select().get().then((web) => (this.web = web.Title));
+	}
 }
