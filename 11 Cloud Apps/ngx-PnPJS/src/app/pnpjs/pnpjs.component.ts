@@ -50,6 +50,6 @@ export class PnPJsComponent implements OnInit {
 	}
 
 	getWebTitle(): void {
-		sp.web.select().get().then((web) => (this.web = web.Title));
+		sp.web.get().then((web) => (this.web = web.Title));
 	}
 }
