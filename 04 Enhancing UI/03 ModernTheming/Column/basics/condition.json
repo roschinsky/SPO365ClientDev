@@ -2,30 +2,70 @@
 	"$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
 	"debugMode": true,
 	"elmType": "div",
-	"txtContent": "@currentField",
-	"style": {
-		"background-color": {
+	"txtContent": {
+		"operator": "+",
+		"operands": [
+			{
+				"operator": "toString()",
+				"operands": [
+					{
+						"operator": "*",
+						"operands": [ "@currentField", 100 ]
+					}
+				]
+			},
+			"%"
+		]
+	},
+	"attributes": {
+		"class": {
 			"operator": "?",
 			"operands": [
 				{
 					"operator": "<",
-					"operands": [ "[$Completed]", "0.5" ]
+					"operands": [ "@currentField", "0.5" ]
 				},
-				"red",
+				"ms-bgColor-red ms-fontColor-black sp-field-dataBars ms-borderColor-redDark",
 				{
 					"operator": "?",
 					"operands": [
 						{
 							"operator": "<",
-							"operands": [ "[$Completed]", "1" ]
+							"operands": [ "@currentField", "1" ]
 						},
-						"orange",
-						"green"
+						"ms-bgColor-yellow ms-fontColor-black sp-field-dataBars ms-borderColor-orangeLight",
+						"ms-bgColor-tealLight ms-fontColor-black sp-field-dataBars ms-borderColor-tealDark"
 					]
 				}
 			]
-		},
-		"color": "white",
-		"padding-left": "10px"
+		}
+	},
+	"style": {
+		"padding-left": "4px",
+		"width": {
+			"operator": "?",
+			"operands": [
+				{
+					"operator": "==",
+					"operands": [ "@currentField", "1" ]
+				},
+				"100%",
+				{
+					"operator": "+",
+					"operands": [
+						{
+							"operator": "toString()",
+							"operands": [
+								{
+									"operator": "*",
+									"operands": [ "@currentField", 100 ]
+								}
+							]
+						},
+						"%"
+					]
+				}
+			]
+		}
 	}
 }
