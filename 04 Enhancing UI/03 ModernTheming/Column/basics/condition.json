@@ -1,0 +1,31 @@
+{
+	"$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+	"debugMode": true,
+	"elmType": "div",
+	"txtContent": "@currentField",
+	"style": {
+		"background-color": {
+			"operator": "?",
+			"operands": [
+				{
+					"operator": "<",
+					"operands": [ "[$Completed]", "0.5" ]
+				},
+				"red",
+				{
+					"operator": "?",
+					"operands": [
+						{
+							"operator": "<",
+							"operands": [ "[$Completed]", "1" ]
+						},
+						"orange",
+						"green"
+					]
+				}
+			]
+		},
+		"color": "white",
+		"padding-left": "10px"
+	}
+}

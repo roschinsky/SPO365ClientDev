@@ -103,3 +103,7 @@ $appId = o365 spo app add --filePath ./spfx-alm/sharepoint/solution/sp-fx-alm.sp
 o365 spo app deploy --id $appId --skipFeatureDeployment
 o365 spo app install --id $appId --siteUrl $siteUrl
 ```
+
+## Site Designs
+
+[Site Design](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-overview)
