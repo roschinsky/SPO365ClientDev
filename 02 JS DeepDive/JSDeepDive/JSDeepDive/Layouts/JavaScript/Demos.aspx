@@ -20,18 +20,18 @@
 
             <a href="javascript:loadPage('demos/referencing.html', this, true);">Referencing, Executing</a>
             <a href="#" onclick="javascript:loadPage('demos/logging.html', this, true);">Debugging & Logging</a>
-            <a href="#" onclick="javascript:loadPage('demos/variables.html', this, true);">Variables</a>
+            <%--<a href="#" onclick="javascript:loadPage('demos/variables.html', this, true);">Variables</a>--%>
             <a href="#" onclick="javascript:loadPage('demos/dates.html', this, true);">Working with Dates</a>
-            <a href="#" onclick="javascript:loadPage('demos/logic.html', this, true);">Program Flow</a>
+<%--            <a href="#" onclick="javascript:loadPage('demos/logic.html', this, true);">Program Flow</a>--%>
             <a href="#" onclick="javascript:loadPage('demos/form.html', this, true);">Reading & Writing Data</a>
             <a href="#" onclick="javascript:loadPage('demos/domevents.html', this, true);">Using DOM & Events</a>
-            <a href="#" onclick="javascript:loadPage('demos/eventBubbling.html', this, true);">Event Bubbling</a>
-            <a href="#" onclick="javascript:loadPage('demos/objectOrientations.html', this, true);">Object Orientation</a>
-            <a href="#" onclick="javascript:loadPage('demos/testjquery.html', this, true, null);">Test if jQuery is installed</a>
+            <%--<a href="#" onclick="javascript:loadPage('demos/eventBubbling.html', this, true);">Event Bubbling</a>--%>
+            <%--<a href="#" onclick="javascript:loadPage('demos/objectOrientations.html', this, true);">Object Orientation</a>--%>
+            <%--<a href="#" onclick="javascript:loadPage('demos/testjquery.html', this, true, null);">Test if jQuery is installed</a>--%>
             <a href="#" onclick="javascript:loadPage('demos/selecting.html', this, true, null);">Selecting</a>
             <a href="#" onclick="javascript:loadPage('demos/manipulate.html', this, true, null);">Manipulate DOM</a>
-            <a href="#" onclick="javascript:loadPage('demos/events.html', this, true, null);">jQuery Events</a>
-            <a href="#" onclick="javascript:loadPage('demos/closures.html', this, true);">Closures</a>
+            <%--<a href="#" onclick="javascript:loadPage('demos/events.html', this, true, null);">jQuery Events</a>--%>
+            <%--<a href="#" onclick="javascript:loadPage('demos/closures.html', this, true);">Closures</a>--%>
             <a href="#" onclick="javascript:loadPage('demos/readJSON.html', this, true);">Consume JSON</a>
             <a href="#" onclick="javascript:loadPage('demos/es6lang.html', this, true);">ECMA Script 6 - Language</a>
             <a href="#" onclick="javascript:loadPage('demos/es6classes.html', this, true);">ECMA Script 6 - Classes</a>
