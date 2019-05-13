@@ -17,7 +17,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 function basicVariables() {
     debugger;
-    var myname = "alexander";
+    var myname = 'peter';
     //Numbers
     var age;
     var weight = 83.12;
@@ -30,16 +30,12 @@ function basicVariables() {
     var isCustomer = false;
     var finished = false;
     //strings
-    var dogName = "Giro";
-    var otherDogName = "Soi";
+    var dogName = 'Giro';
+    var otherDogName = 'Soi';
     var x = 10;
-    var strings = ["hubert", "Sam"];
-    strings.push("Hans");
+    var strings = ['hubert', 'Sam'];
+    strings.push('Hans');
     //strings[1] = 1337; // compile time error
-    // Function returning never must have unreachable end point
-    function error(message) {
-        throw new Error(message);
-    }
     // Not much else we can assign to these variables!
     let u = undefined;
     let n = null;
@@ -47,31 +43,31 @@ function basicVariables() {
 function useLetConst() {
     debugger;
     var index = 0;
-    var array = ["a", "b", "c"];
+    var array = ['a', 'b', 'c'];
     for (let index = 0; index < array.length; index++) {
-        console.log("Inside for ..." + index);
-        console.log("Inside for ..." + array[index]);
+        console.log('Inside for ...' + index);
+        console.log('Inside for ...' + array[index]);
     }
     console.log(index); // 0
     const pi = 3.14;
     //pi = 2;
-    const p = { name: "hugo" };
-    p.name = "hubgobert";
+    const p = { name: 'hugo' };
+    p.name = 'hubgobert';
 }
 function stringFunctions() {
     debugger;
     var productID = 100;
-    var category = "music";
+    var category = 'music';
     //string concatenation
-    var url = "http://server/" + category + "/" + productID;
+    var url = 'http://server/' + category + '/' + productID;
     console.log(url);
     //Template Literals using Backticks
     var tl = `http://server/${category}/${productID}`;
     console.log(tl);
     //startswith
-    var str = "To be, or not to be, that is the question.";
-    console.log(str.startsWith("To be")); // true
-    console.log(str.endsWith("question.")); // true
+    var str = 'To be, or not to be, that is the question.';
+    console.log(str.startsWith('To be')); // true
+    console.log(str.endsWith('question.')); // true
 }
 function useEnums() {
     debugger;
@@ -96,18 +92,18 @@ function useVoidAny() {
     }
     let likeadelegate = handleClick();
     let notSure = 4;
-    notSure = "maybe a string instead";
+    notSure = 'maybe a string instead';
     notSure = false; // okay, definitely a boolean
 }
 function introArrays() {
     debugger;
     //declaration using type followed by []
-    var customers = ["Alex", "Giro", "Sonja", "Soi", "David"];
+    var customers = ['Alex', 'Giro', 'Sonja', 'Soi', 'David'];
     //declaration using generic array type
     let nbrs = [3, 4, 5];
-    console.log(customers.length + "Persons in Array");
-    customers[2] = "Brunhilde";
-    console.log("Person with index 1 is" + customers[1]);
+    console.log(customers.length + 'Persons in Array');
+    customers[2] = 'Brunhilde';
+    console.log('Person with index 1 is' + customers[1]);
     //for ... of
     let list = [4, 5, 6];
     for (let i in list) {
@@ -121,16 +117,16 @@ function introArrays() {
     let [first, second, third] = source;
     // output: 100, 4, 8
     console.log(third, second, first);
-    let myArray = [1, ["hello"], true], [a, b, c] = myArray;
+    let myArray = [1, ['hello'], true], [a, b, c] = myArray;
     // output: 1, ['hello']
     console.log(a, b);
 }
 function arrayHelpers() {
     debugger;
     var fruits = [
-        { name: "apples", quantity: 2, price: 3, region: "europe" },
-        { name: "bananas", quantity: 0, price: 5, region: "caribean" },
-        { name: "cherries", quantity: 5, price: 8, region: "europe" }
+        { name: 'apples', quantity: 2, price: 3, region: 'europe' },
+        { name: 'bananas', quantity: 0, price: 5, region: 'caribean' },
+        { name: 'cherries', quantity: 5, price: 8, region: 'europe' }
     ];
     //remember ECMA Script 5 pattern
     var result = [];
@@ -142,16 +138,16 @@ function arrayHelpers() {
     }
     console.log(`There areas ${result.length} items in the Array`);
     //forEach
-    fruits.forEach(item => item.quantity++);
-    fruits.forEach(fruit => {
+    fruits.forEach((item) => item.quantity++);
+    fruits.forEach((fruit) => {
         fruit.quantity++;
     });
     //find
-    var cherry = fruits.find(fruit => fruit.name === "cherries");
+    var cherry = fruits.find((fruit) => fruit.name === 'cherries');
     console.log(cherry);
     //filter
     //var cheap = fruits.filter((item) => { return item.price < 6 });
-    var cheap = fruits.filter(item => item.price < 6);
+    var cheap = fruits.filter((item) => item.price < 6);
     console.log(cheap);
     //reduce
     var fruitNames = fruits.reduce((prevArray, fruit) => {
@@ -160,8 +156,8 @@ function arrayHelpers() {
     }, []);
     console.log(fruitNames);
     //splice
-    var dogs = ["whippet", "galgo espanol", "magyar whistler", "magyar agar"];
-    dogs.splice(2, 0, "chart polski");
+    var dogs = ['whippet', 'galgo espanol', 'magyar whistler', 'magyar agar'];
+    dogs.splice(2, 0, 'chart polski');
     console.log(dogs);
     dogs.splice(3, 1);
     console.log(dogs);
@@ -169,8 +165,10 @@ function arrayHelpers() {
 function objectsBasics() {
     debugger;
     let myperson = new Object(); //old style
-    let person = { Id: 1, Name: "Alexander" };
-    person.dance = function () { console.log("I am dancing"); };
+    let person = { Id: 1, Name: 'Alexander' };
+    person.dance = function () {
+        console.log('I am dancing');
+    };
     person.walk = () => console.log(`I am ${person.Name} and I'm walking`);
     person.walk();
 }
@@ -213,9 +211,9 @@ function enhancedObjectLiterals() {
 function destructuring() {
     debugger;
     // object pattern matching
-    let { lName, fName } = { fName: "John", lName: "Doe" };
+    let { lName, fName } = { fName: 'John', lName: 'Doe' };
     // output: Doe, John
-    console.log(lName + ", " + fName);
+    console.log(lName + ', ' + fName);
     var rect = { x: 0, y: 10, width: 15, height: 20 };
     // Destructuring assignment
     var { x, y, width, height } = rect;
@@ -229,13 +227,13 @@ function restParams() {
     function playLotto(name, ...bets) {
         console.log(`${name} is playing the following lottery numbers: `);
         bets.forEach((nbr) => console.log(nbr));
-        bets.forEach(nbr => console.log(nbr));
+        bets.forEach((nbr) => console.log(nbr));
         bets.forEach(function (item) {
             console.log(item);
         });
     }
-    playLotto("Hannes", 3, 12, 45, 48);
-    playLotto("Kurt", 3, 12, 45, 48, 44, 33, 12);
+    playLotto('Hannes', 3, 12, 45, 48);
+    playLotto('Kurt', 3, 12, 45, 48, 44, 33, 12);
     var shop = new Array();
     shop.category = new Map();
     shop.add = function (categoryName, ...products) {
@@ -247,26 +245,26 @@ function restParams() {
             shop.category.get(categoryName).push(item);
         });
     };
-    shop.add("fruits", "apple");
-    shop.add("dairy", "milk", "cheese", "yoghurt");
-    shop.add("pastries", "donuts", "croissants");
-    shop.add("cleaning", "soap", "body lotion", "shampoo", "tooth brush");
-    console.log("There are the following products in the store", shop);
+    shop.add('fruits', 'apple');
+    shop.add('dairy', 'milk', 'cheese', 'yoghurt');
+    shop.add('pastries', 'donuts', 'croissants');
+    shop.add('cleaning', 'soap', 'body lotion', 'shampoo', 'tooth brush');
+    console.log('There are the following products in the store', shop);
 }
 function valref() {
     debugger;
-    let person = { Id: 1, Name: "Alexander" };
+    let person = { Id: 1, Name: 'Alexander' };
     let myNumber = 100;
     function passArgs(nbr, pers) {
         nbr += 1;
-        pers.Name = "Alex";
+        pers.Name = 'Alex';
     }
     passArgs(myNumber, person);
-    console.log("result for myNumber & person:", myNumber, person);
+    console.log('result for myNumber & person:', myNumber, person);
     myNumber = 500;
-    person.name = "Josef";
+    person.name = 'Josef';
     passArgs(myNumber, Object.assign({}, person));
-    console.log("result for myNumber & person:", myNumber, person);
+    console.log('result for myNumber & person:', myNumber, person);
 }
 function basicClasses() {
     debugger;
@@ -274,17 +272,17 @@ function basicClasses() {
     }
     let v = new Voucher();
     v.ID = 0;
-    v.Text = "Demo Voucher";
-    console.log("vouchertext is:" + v["Text"]);
+    v.Text = 'Demo Voucher';
+    console.log('vouchertext is:' + v['Text']);
     var vouchers = new Array();
     var vM = {
         ID: 1,
-        Text: "Media Markt",
+        Text: 'Media Markt',
         Amount: 22,
         Date: new Date()
     };
     vouchers.push(vM);
-    var vA = { ID: 2, Text: "Amazon", Amount: 44, Date: new Date() };
+    var vA = { ID: 2, Text: 'Amazon', Amount: 44, Date: new Date() };
     vouchers.push(vA);
     for (var i = 0; i < vouchers.length; i++) {
         let v = vouchers[i];
@@ -314,53 +312,53 @@ function classesConstructor() {
             this.breed = breed;
         }
         barkName() {
-            return "Wuff, my name is " + this.name + ", I am a " + this.breed;
+            return 'Wuff, my name is ' + this.name + ', I am a ' + this.breed;
         }
         sayName() {
-            return "Wuff, my name is " + name; // + ", I am a " + breed;
+            return 'Wuff, my name is ' + name; // + ", I am a " + breed;
         }
     }
-    let dog = new Dog("Soi", "Whippet");
+    let dog = new Dog('Soi', 'Whippet');
     console.log(dog.barkName());
     console.log(dog.sayName());
     console.log(dog.breed);
-    let jim = new Person("Jim", true);
-    console.log(jim.name + " is alive: " + jim.alive);
+    let jim = new Person('Jim', true);
+    console.log(jim.name + ' is alive: ' + jim.alive);
     class Bill {
-        constructor(Text = "", Paid = false) {
+        constructor(Text = '', Paid = false) {
             this.text = Text;
             this.paid = Paid;
         }
     }
-    var b1 = new Bill("Car Purchase");
-    var b2 = new Bill("Rösti für Freundin", true);
-    console.log("b1 with Text: " + b1.text + " was " + b1.paid);
-    console.log("b2 with Text: " + b2.text + " was " + b2.paid);
+    var b1 = new Bill('Car Purchase');
+    var b2 = new Bill('Rösti für Freundin', true);
+    console.log('b1 with Text: ' + b1.text + ' was ' + b1.paid);
+    console.log('b2 with Text: ' + b2.text + ' was ' + b2.paid);
     class Smurf {
         constructor(name) {
             if (name.length < 1) {
-                throw new Error("Empty name!");
+                throw new Error('Empty name!');
             }
             this.name = name;
         }
     }
-    var smurf = new Smurf("Daniel");
+    var smurf = new Smurf('Daniel');
     //smurf.name = "Dan"; // Error! 'name' is read-only.
 }
 function getSet() {
     debugger;
-    let passcode = "secret passcode";
+    let passcode = 'secret passcode';
     class Citzien {
         get fullName() {
             return this._fullName;
         }
         set fullName(newName) {
             this._fullName = `Citizen ${newName}`;
-            console.log("name changed to " + newName);
+            console.log('name changed to ' + newName);
         }
     }
     let employee = new Citzien();
-    employee.fullName = "Bob Smith";
+    employee.fullName = 'Bob Smith';
     if (employee.fullName) {
         console.log(employee.fullName);
     }
@@ -370,25 +368,25 @@ function inheritance() {
     class Dog {
         constructor(name) {
             this.name = name;
-            this.speed = "with 40 km/h";
+            this.speed = 'with 40 km/h';
         }
         move(meters) {
-            console.log(this.name + " moved " + meters + " meters " + this.speed);
+            console.log(this.name + ' moved ' + meters + ' meters ' + this.speed);
         }
     }
     class Sighthound extends Dog {
         constructor(name) {
-            super(name);
-            this.speed = "with up to 110 km/h";
+            super(name); // base call
+            this.speed = 'with up to 110 km/h';
         }
         move(meters = 500) {
-            console.log("Running ..." + meters + "m. " + this.speed);
+            console.log('Running ...' + meters + 'm. ' + this.speed);
             super.move(meters);
         }
     }
-    var dog = new Dog("Bello");
+    var dog = new Dog('Bello');
     dog.move(50);
-    var hound = new Sighthound("Soi");
+    var hound = new Sighthound('Soi');
     hound.move();
     hound.move(1000);
     //Protected Properties
@@ -406,7 +404,7 @@ function inheritance() {
             return `Hello, my name is ${this.name} and I work in ${this.department} department.`;
         }
     }
-    let howard = new Employee("Howard", "Sales");
+    let howard = new Employee('Howard', 'Sales');
     console.log(howard.introduceSelf());
     //console.log(howard.name); // error
 }
@@ -417,7 +415,7 @@ function staticProperties() {
             this.scale = scale;
         }
         static sayName() {
-            return "I am a Grid";
+            return 'I am a Grid';
         }
         calculateDistanceFromOrigin(point) {
             var xDist = point.x - Grid.origin.x;
@@ -431,7 +429,7 @@ function staticProperties() {
     var grid = new Grid(3);
     var p = { x: 10, y: 20 };
     var result = grid.calculateDistanceFromOrigin(p);
-    console.log("Grid result:", result);
+    console.log('Grid result:', result);
 }
 function typedFunctions() {
     debugger;
@@ -446,23 +444,23 @@ function functionParameters() {
     //optional param
     function buildName(firstName, lastName) {
         if (lastName)
-            return firstName + " " + lastName;
+            return firstName + ' ' + lastName;
         else
             return firstName;
     }
-    console.log(buildName("Bob"));
-    console.log(buildName("Giro", "Galgohead"));
+    console.log(buildName('Bob'));
+    console.log(buildName('Giro', 'Galgohead'));
     //default param
-    function getAddress(street, city = "Vienna") {
+    function getAddress(street, city = 'Vienna') {
         return `${street}, ${city}`;
     }
-    console.log(getAddress("Neuwaldegger Straße"));
-    console.log(getAddress("Seestraße", "Idolsberg"));
+    console.log(getAddress('Neuwaldegger Straße'));
+    console.log(getAddress('Seestraße', 'Idolsberg'));
     //rest param
     function buildFruitBucket(fruitType, ...fruits) {
-        console.log("The following " + fruitType + " are in the bucket " + fruits.join(", "));
+        console.log('The following ' + fruitType + ' are in the bucket ' + fruits.join(', '));
     }
-    buildFruitBucket("Beeren", "Himbeeren", "Brombeeren", "Goji Beeren");
+    buildFruitBucket('Beeren', 'Himbeeren', 'Brombeeren', 'Goji Beeren');
 }
 function arrowFunctions() {
     debugger;
@@ -479,7 +477,7 @@ function interfacesBasics() {
     debugger;
     class Knight {
         constructor() {
-            this.weapon = "Battle Axe";
+            this.weapon = 'Battle Axe';
         }
         sayName() {
             return this.name;
@@ -491,7 +489,7 @@ function interfacesBasics() {
         }
     }
     let rob = new Knight();
-    rob.name = "Rob Stark";
+    rob.name = 'Rob Stark';
 }
 function interfacesNullability() {
     debugger;
@@ -501,7 +499,7 @@ function interfacesNullability() {
 function interfacesObjectLiterals() {
     debugger;
     var position = { Long: 17.123123, Lat: 12.123123 };
-    console.log("We are at position Long: " + position.Long + " Lat: " + position.Lat);
+    console.log('We are at position Long: ' + position.Long + ' Lat: ' + position.Lat);
 }
 function interfacesFunctions() {
     debugger;
@@ -509,7 +507,7 @@ function interfacesFunctions() {
         console.log(labelledObj.label);
         //console.log(labelledObj.size);
     }
-    let myObj = { size: 10, label: "Size 10 Object" };
+    let myObj = { size: 10, label: 'Size 10 Object' };
     printLabel(myObj);
     var mySearch;
     mySearch = function (source, subString) {
@@ -520,13 +518,13 @@ function interfacesFunctions() {
 function genericFunctions() {
     debugger;
     function concat(arg) {
-        let result = "";
+        let result = '';
         for (var m of arg) {
-            result += m.toString() + ", ";
+            result += m.toString() + ', ';
         }
         return result;
     }
-    let stringArr = ["Alex", "Giro", "Soi the Whippet"];
+    let stringArr = ['Alex', 'Giro', 'Soi the Whippet'];
     console.log(concat(stringArr));
     let nbrArr = [100, 201, 322];
     //let nbrArr: Array<number> = [100, 201, 322, "geht nicht weil string"];
@@ -550,7 +548,7 @@ function genericClassesInterfaces() {
     let cat = new Catalog();
     var v = {
         ID: 1,
-        Text: "Media Markt",
+        Text: 'Media Markt',
         Amount: 22,
         Date: new Date(),
         Paid: false,
@@ -572,89 +570,94 @@ function usingPromises() {
     function doAsyncTask(succeed) {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                console.log("Async Task Complete");
+                console.log('Async Task Complete');
                 if (succeed) {
-                    resolve(JSON.stringify({ Id: 1, Person: "Hugo Wolf" }));
+                    resolve(JSON.stringify({ Id: 1, Person: 'Hugo Wolf' }));
                 }
                 else {
-                    reject("Outcome: Promise rejected");
+                    reject('Outcome: Promise rejected');
                 }
             }, 1000);
         });
     }
     doAsyncTask(true)
-        .then(data => console.log("Date received from Async Task", JSON.parse(data)))
-        .catch(err => console.log("Err:", err));
+        .then((data) => console.log('Date received from Async Task', JSON.parse(data)))
+        .catch((err) => console.log('Err:', err));
 }
 function useAjax() {
-    var query = "http://sp2016/_api/web/title";
+    var query = 'http://sp2016/_api/web/title';
     //Callbacks
     $.ajax({
-        type: "GET",
+        type: 'GET',
         url: query,
-        dataType: "json",
+        dataType: 'json',
         headers: {
-            "accept": "application/json;odata=verbose",
-            "content-type": "application/json;odata=verbose"
+            accept: 'application/json;odata=verbose',
+            'content-type': 'application/json;odata=verbose'
         },
         success(data) {
             console.log(data.d.results);
         },
         error(msg) {
-            console.log("error calling service", msg);
+            console.log('error calling service', msg);
             console.log(msg);
         }
     });
     //Promises
     $.ajax({
-        type: "GET",
+        type: 'GET',
         url: query,
-        dataType: "json",
+        dataType: 'json',
         headers: {
-            "accept": "application/json;odata=verbose",
-            "content-type": "application/json;odata=verbose"
+            accept: 'application/json;odata=verbose',
+            'content-type': 'application/json;odata=verbose'
         }
-    }).then(data => {
+    })
+        .then((data) => {
         console.log(data);
-    }).fail(err => {
+    })
+        .fail((err) => {
         console.log(err);
     });
 }
-var ratesQuery = "http://data.fixer.io/api/latest?access_key=6c36c303e33169dd7102897259fc93be";
+var qry = 'https://jsonplaceholder.typicode.com/todos/1';
 function usingFetch() {
-    fetch(ratesQuery).then(response => {
-        console.log("Data received from fetch", response);
+    debugger;
+    fetch(qry)
+        .then((response) => {
+        console.log('Data received from fetch', response);
         return response.json();
-    }).then(data => {
+    })
+        .then((data) => {
         console.log(data);
     });
 }
 function usingFetchAwait() {
+    debugger;
     function getRates() {
         return __awaiter(this, void 0, void 0, function* () {
-            let response = yield fetch(ratesQuery);
+            let response = yield fetch(qry);
             let reates = yield response.json();
-            console.log("Data received using fetch - await", reates);
+            console.log('Data received using fetch - await', reates);
         });
     }
     getRates();
 }
 function postFetch() {
     const body = {
-        description: "Fetch API Post example",
+        description: 'Fetch API Post example',
         public: true,
         files: {
-            "test.js": {
-                content: "Abc"
+            'test.js': {
+                content: 'Abcd'
             }
         }
     };
-    fetch("https://api.github.com/gists", {
-        method: "post",
+    fetch('https://api.github.com/gists', {
+        method: 'post',
         body: JSON.stringify(body)
-    })
-        .then(response => {
-        console.log("Created Gist", response.json());
+    }).then((response) => {
+        console.log('Created Gist', response.json());
     });
 }
 var SPDemos;
@@ -664,19 +667,19 @@ var SPDemos;
     SPDemos.TopicMM = TopicMM;
     class NewsService {
         constructor() {
-            this.errorHandler = err => {
-                console.log("REST error:");
+            this.errorHandler = (err) => {
+                console.log('REST error:');
                 console.log(err);
             };
-            this.hostUrl = decodeURIComponent(this.getQueryStringParameter("SPHostUrl"));
-            this.appUrl = decodeURIComponent(this.getQueryStringParameter("SPAppWebUrl"));
-            this.queryBase = this.appUrl + "/_api/SP.AppContextSite(@target)/";
+            this.hostUrl = decodeURIComponent(this.getQueryStringParameter('SPHostUrl'));
+            this.appUrl = decodeURIComponent(this.getQueryStringParameter('SPAppWebUrl'));
+            this.queryBase = this.appUrl + '/_api/SP.AppContextSite(@target)/';
             this.queryTarget = `&@target='${this.hostUrl}'`;
         }
         getQueryStringParameter(paramToRetrieve) {
-            const params = document.URL.split("?")[1].split("&");
+            const params = document.URL.split('?')[1].split('&');
             for (let i = 0; i < params.length; i = i + 1) {
-                const singleParam = params[i].split("=");
+                const singleParam = params[i].split('=');
                 if (singleParam[0] == paramToRetrieve)
                     return singleParam[1];
             }
@@ -685,22 +688,22 @@ var SPDemos;
             var query = this.queryBase +
                 "web/lists/getbytitle('news')/GetItems(query=@v1)?@v1={'ViewXml':'<View><Query></Query></View>'}" +
                 this.queryTarget;
-            var digest = $("#__REQUESTDIGEST").val();
+            var digest = $('#__REQUESTDIGEST').val();
             return new Promise((resolve, reject) => {
                 $.ajax({
-                    type: "POST",
+                    type: 'POST',
                     url: query,
-                    dataType: "json",
+                    dataType: 'json',
                     headers: {
-                        "accept": "application/json;odata=verbose",
-                        "content-type": "application/json;odata=verbose",
-                        "X-RequestDigest": digest
+                        accept: 'application/json;odata=verbose',
+                        'content-type': 'application/json;odata=verbose',
+                        'X-RequestDigest': digest
                     },
                     success(data) {
                         resolve(JSON.stringify(data.d.results));
                     },
                     error(msg) {
-                        console.log("error calling service", msg);
+                        console.log('error calling service', msg);
                         console.log(msg);
                         reject(msg);
                     }
@@ -728,8 +731,8 @@ var SPDemos;
 function loadNews() {
     debugger;
     const service = new SPDemos.NewsService();
-    service.getNews().then(data => {
-        console.log("data received from service: ", data);
+    service.getNews().then((data) => {
+        console.log('data received from service: ', data);
     });
 }
 function loadNewsJsom() {
@@ -737,11 +740,11 @@ function loadNewsJsom() {
     const ctx = SP.ClientContext.get_current();
     const web = ctx.get_web();
     const lists = web.get_lists();
-    const listNews = lists.getByTitle("News");
+    const listNews = lists.getByTitle('News');
     var firstNews = listNews.getItemById(1);
     ctx.load(firstNews);
     ctx.executeQueryAsync(() => {
-        var mmField = firstNews.get_item("Topic");
+        var mmField = firstNews.get_item('Topic');
         console.log(`title of Managed Metadata field is ${mmField.Label}`);
     }, (sender, args) => {
         console.log(`Request failed. ${args.get_message()}`);
