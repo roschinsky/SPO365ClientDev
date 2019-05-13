@@ -1,9 +1,10 @@
-﻿
+﻿//# sourceURL=domevents.js
+
 function changeLamp() {
     debugger;
 
     var state = document.getElementById("chkLampState").checked ? "on" : "off";
-    var img = "/_layouts/15/JSFundamentals/images/lamp_" + state + ".png";
+    var img = "/_layouts/15/JavaScript/images/lamp_" + state + ".png";
     var lampImg = document.getElementById("imgLamp");
     lampImg.src = img;
     var statusDiv = document.getElementById("statusSpan");
