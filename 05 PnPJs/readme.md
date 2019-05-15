@@ -1,6 +1,8 @@
 # @pnp/pnpjs
 
-[PNP JavaScript](https://pnp.github.io/pnpjs/)
+[PnP Js](https://pnp.github.io/pnpjs/)
+
+[PnP Js Docs](https://pnp.github.io/pnpjs/sp/docs/)
 
 Installation:
 
