@@ -1,6 +1,6 @@
-# Customize the User Interface
+# Enhancing the User Interface
 
-# CSS Standards & UI Frameworks
+## CSS Standards & UI Frameworks
 
 [SaSS](https://sass-lang.com)
 
@@ -10,17 +10,17 @@
 
 [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-# Office UI Fabric
+## Office UI Fabric
 
 [Office UI Fabric Home](https://developer.microsoft.com/en-us/fabric)
 
 [Office UI Fabric JavaScript](https://developer.microsoft.com/en-us/fabric-js)
 
-# Modern UI
+## Modern UI
 
 [Customizing the "modern" experiences in SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations)
 
-## Theming
+### Theming
 
 [Site Theming](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
 
@@ -28,7 +28,7 @@
 
 [SharePoint Online Powershell Cmd Reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/?view=sharepoint-ps)
 
-## View & Column Formatting
+### View & Column Formatting
 
 [View Formatting](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 

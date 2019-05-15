@@ -1,18 +1,20 @@
-# SharePoint 2019
+# Introduction
+
+## SharePoint 2019
 
 [SharePoint Server 2019 development platform](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-2019-development-platform)
 
-# Office 365
+## Office 365
 
 [Hub Sites](https://docs.microsoft.com/en-us/sharepoint/dev/features/hub-site/hub-site-overview)
 
 [Site Theming](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
 
-# Patterns and Practices - PnP
+## Patterns and Practices - PnP
 
 [SharePoint Developer Community (SharePoint PnP) resources](https://docs.microsoft.com/en-us/sharepoint/dev/community/community)
 
-## PnP PowerShell
+### PnP PowerShell
 
 [PnP Powershell Cmdlet overview](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
@@ -23,7 +25,7 @@ Install-Module -Name PowerShellGet –Force
 Install-Module SharePointPnPPowerShellOnline
 ```
 
-## Other PowerShell Providers
+### Other Office 365 Related PowerShell Providers
 
 [Microsoft Online Services Sign-In Assistant for IT Professionals](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
@@ -37,7 +39,7 @@ Install-Module SharePointPnPPowerShellOnline
 
 [Office 365 Powershell Documentation](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-# Using Node as a Dev Tool
+## Using Node as a Dev Tool
 
 Installation
 
@@ -51,7 +53,7 @@ npm i -g webpack webpack-cli gulp gulp-cli
 
 ![audit](_images/npm-audit.png)
 
-## Execute Sample Tasks
+### Execute Sample Tasks
 
 Run a gulp task: 
 
@@ -67,7 +69,7 @@ webpack
 > Note: Uses `webpack.config.js` by default
 
 
-# Links & Ressources
+### Links & Ressources
 
 [Node.js Versions](https://nodejs.org/en/download/releases/)
 

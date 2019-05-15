@@ -1,5 +1,7 @@
 # SharePoint & TypeScript
 
+[Typescript Documentation](https://www.typescriptlang.org/docs/home.html)
+
 ## Add TypeScript Related NuGetPackages
 
 ![NuGet](_images/nuget.png)

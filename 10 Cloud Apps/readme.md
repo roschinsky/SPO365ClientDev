@@ -1,19 +1,5 @@
-## Office Dev Center -> Office Developer Starting Point
+# Azure AD Applications
 
-https://developer.microsoft.com/en-us/office/docs
+[Register Azure AD Application](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## PnP Home
-
-https://github.com/SharePoint/PnP
-
-## SharePoint Developer Patterns and Practices
-
-https://docs.microsoft.com/en-us/sharepoint/dev/community/community
-
-## PnP Documentation
-
-https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance
-
-## Readme
-
-[Customize App Lauchner](https://sharepoint.stackexchange.com/questions/179758/customize-sharepoint-2016-app-launcher-tiles)
+[Customize On Premise App Lauchner](https://sharepoint.stackexchange.com/questions/179758/customize-sharepoint-2016-app-launcher-tiles)

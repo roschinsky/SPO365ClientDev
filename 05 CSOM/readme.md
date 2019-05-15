@@ -6,6 +6,8 @@
 
 ## PnP Sites Core
 
+> Note: Extends in C#
+
 [PnP Sites Core](https://github.com/SharePoint/PnP-Sites-Core)
 
-[PnP Sites Core Documentation](https://github.com/SharePoint/PnP-Sites-Core/tree/master/Core)
+[PnP Sites Core Documentation](https://github.com/SharePoint/PnP-Sites-Core/blob/master/Core/README.md)
