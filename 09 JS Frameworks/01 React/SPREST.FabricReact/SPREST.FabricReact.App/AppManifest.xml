@@ -4,7 +4,7 @@
      Name="FrabricReactDemo"
      ProductID="{e2e1ef40-94ce-4b04-a5ec-550933889711}"
      Version="1.0.0.0"
-     SharePointMinVersion="15.0.0.0"
+     SharePointMinVersion="16.0.0.0"
 >
   <Properties>
     <Title>Office Fabric UI Demo</Title>
