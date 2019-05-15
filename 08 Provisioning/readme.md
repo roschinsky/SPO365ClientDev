@@ -4,6 +4,10 @@
 
 [PnP Remote Provisioning Introduction](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/pnp-remote-provisioning)
 
+PnP Provisioning is used in [
+SharePoint Online Provisioning Service
+](https://provisioning.sharepointpnp.com/)
+
 ## Application Life Cycle Management
 
 [PnP Powershell Cmdlet overview](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
