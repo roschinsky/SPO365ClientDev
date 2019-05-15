@@ -1,7 +1,6 @@
-## Office Dev Center -> Office Developer Starting Point 
+## Office Dev Center -> Office Developer Starting Point
 
 https://developer.microsoft.com/en-us/office/docs
- 
 
 ## PnP Home
 
@@ -15,3 +14,6 @@ https://docs.microsoft.com/en-us/sharepoint/dev/community/community
 
 https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance
 
+## Readme
+
+[Customize App Lauchner](https://sharepoint.stackexchange.com/questions/179758/customize-sharepoint-2016-app-launcher-tiles)
