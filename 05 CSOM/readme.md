@@ -1,19 +1,11 @@
-## SDK Reference available at:
+# Client Side Object Model (CSOM)
 
-JSOM: 
+[JSOM API RReference](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-net-server-csom-jsom-and-rest-api-index)
 
-https://msdn.microsoft.com/EN-US/library/office/jj246996.aspx
+[Common CSOM Tasks](<https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537013(v=office.14)>)
 
-C# CSOM: 
+## PnP Sites Core
 
-https://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.client.aspx
+[PnP Sites Core](https://github.com/SharePoint/PnP-Sites-Core)
 
-## PnP Sites Core 
-
-https://github.com/SharePoint/PnP-Sites-Core
-
-## PnP Sites Core Documentation
-
-https://github.com/SharePoint/PnP-Sites-Core/tree/master/Core
-
-https://msdn.microsoft.com/en-us/pnp_sites_core/pnp-sites-core-overview
+[PnP Sites Core Documentation](https://github.com/SharePoint/PnP-Sites-Core/tree/master/Core)
