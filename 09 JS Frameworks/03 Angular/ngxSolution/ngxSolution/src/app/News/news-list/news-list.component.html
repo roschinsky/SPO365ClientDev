@@ -8,12 +8,12 @@
     <tr *ngFor="let n of items" (click)="showNews(n)">
         <td>{{n.Title}}</td>
         <td>{{n.Body}}</td>
-        <td>{{n.Created}}</td>
-        <td>{{n.Modified}</td>
+        <td>{{n.Created  | date:'shortTime' }}</td>
+        <td>{{n.Modified  | date:'shortTime' }}</td>
     </tr>
 </table>
 
 <div *ngIf="current">
     <div>Current Item</div>
-    <div>{{current | json}}</div>
+    <pre>{{current | json}}</pre>
 </div>

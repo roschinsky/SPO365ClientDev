@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\O365ClientSideDev\10 JS Frameworks\ngxSolution\ngxSolution\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! D:\SPO365ClientDev\09 JS Frameworks\03 Angular\ngxSolution\ngxSolution\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
