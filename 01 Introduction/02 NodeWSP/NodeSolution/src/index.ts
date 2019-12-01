@@ -1,6 +1,5 @@
 import { SPUtil } from "./util";
 import { Car } from "./car";
-import { State } from "./state";
 
 let spUtil = new SPUtil();
 spUtil.log();
