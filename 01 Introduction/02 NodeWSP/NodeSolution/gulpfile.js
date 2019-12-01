@@ -20,7 +20,7 @@ gulp.task('watch:sass', function() {
 });
 
 var spsaveCoreOption = {
-	siteUrl: 'http://sp2016',
+	siteUrl: 'http://sp2019',
 	folder: 'Shared%20Documents',
 	checkin: true,
 	checkinType: 1,
