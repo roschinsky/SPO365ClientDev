@@ -60,12 +60,8 @@ Taken from https://www.biwug.be/resources:
 
 [Sharepoint Client Browser](https://github.com/bramdejager/spcb)
 
-## VS Prof Extensions
+## General Extensions
 
 [Open Command Line](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpenCommandLine)
 
 [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile)
-
-[SPRemote API Explorer](https://marketplace.visualstudio.com/items?itemName=SteveCurranMVP.SPRemoteAPIExplorer)
-
-[SPFastDeploy](https://marketplace.visualstudio.com/items?itemName=SteveCurranMVP.SPFastDeploy)

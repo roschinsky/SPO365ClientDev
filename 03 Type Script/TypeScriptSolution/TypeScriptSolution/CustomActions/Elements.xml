@@ -3,7 +3,7 @@
   <CustomAction
     Id="ClientSideDevFund.Typescript"
     Description="Basics"
-    Title="TypeScript Solution"
+    Title="TypeScript in WSP"
     GroupId="SiteActions"
     Location="Microsoft.SharePoint.StandardMenu">
     <UrlAction Url="~site/_layouts/15/TypeScriptSolution/TypeScriptPage.aspx" />
