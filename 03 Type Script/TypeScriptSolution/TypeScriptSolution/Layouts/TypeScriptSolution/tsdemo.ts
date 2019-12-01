@@ -1,15 +1,13 @@
 ﻿$(document).ready(() => {
 	let helper = new SPHelper();
-	helper.execQuery();
+	helper.execQuery('http://sp2019/_api/web/title');
 });
 
 class SPHelper {
-	query = 'http://sp2019/_api/web/title';
-
-	execQuery = () => {
+	execQuery = (query: string) => {
 		$.ajax({
 			type: 'GET',
-			url: this.query,
+			url: query,
 			dataType: 'json',
 			headers: {
 				accept: 'application/json;odata=verbose',
