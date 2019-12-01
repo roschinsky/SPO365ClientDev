@@ -47,16 +47,17 @@ Neue Themengebiete werden anhand von Folien und Demos erarbeitet – am Ende der
 # Inhalte 
 
 Introduction SharePoint 2019 / Office 365 Development 
-- Moden Team Sites  
-- Office 365 Overview & Services 
-- Microsoft Teams vs Sharepoint 
-- Overview PnP Framework 
-- Overview PnP Core Extensions 
+
 - Why Client-Side Development 
+- Office 365 Overview & Services 
+- Overview PnP Framework 
 - JavaScript vs TypeScript 
 - CSOM vs REST vs PnP Core JavaScript 
 - JavaScript / Typescript vs C# Customizations 
-- Overview PowerShell Extensions / Office CLI 
+- Understanding Node.js Role in modern Client Side Dev 
+- The Web Stack Pattern, Node, Gulp, Yeoman, Webpack 
+- Bundling Solutions using Webpack 
+- Using Node in Server Side Solutions & Add-Ins 
  
 Writing modern JavaScript  
 
@@ -99,15 +100,13 @@ Verwenden von PnP JS Core
 - PnP JS Overview 
 - Implementing CRUD Operations 
 - Using PnP JS Core  
- 
-Using JavaScript Frameworks in SharePoint Develpment 
 
-- Understanding Node.js Role in modern Client Side Dev 
-- The Web Stack Pattern, Node, Gulp, Yeoman, Webpack 
-- Bundling Solutions using Webpack 
-- Using Node in Server Side Solutions & Add-Ins 
-- React Intro & Hello World 
-- Angular Intro & Hello World  
+Consuming Microsoft Graph, Webhooks & Connectors
+ 
+- Microsoft Graph 
+- One Drive API 
+- Using Webhooks & Connectors 
+- Remote Timer Jobs On-Premises & using Azure Functions 
  
 Customizing & Enhancing the User-Interface  
   
@@ -115,7 +114,7 @@ Customizing & Enhancing the User-Interface
 - Understanding & Using Flexbox 
 - Column & List Formatting 
 - Using Office UI Fabric React & Office UI Fabric JS 
- 
+
 Add-In Fundamentals 
 
 - On Premise vs Office 365 
@@ -128,28 +127,34 @@ Add-In Fundamentals
  
 Provisioning & Application LifeCycle Management (ALM) 
  
+- Overview PowerShell Extensions / Office CLI 
+- Application Lifecycle Management Basics 
 - Provisioning SharePoint Artifacts 
 - Overview PnP Provisioning Framework 
 - Using PnP Provisioning  
 - Sharepoint Online Provisioning Services 
-- Application Lifecycle Management Basics 
- 
-Consuming Microsoft Graph, Webhooks & SharePoint / Office 365 Services 
- 
-- Microsoft Graph 
-- One Drive API 
-- Remote Event Receivers  
-- Using Webhooks & Connectors 
-- Remote Timer Jobs On-Premises & using Azure Functions 
  
 Programming Security, Social & Teams 
  
 - Security Basics, Authentication (oAuth, Tokens) 
-- Azure AD & Active Directory Authentication Library  
+- Introduction to Azure AD & App Registrations
+- Authentication Libraries: ADAL & MSAL
 - Managing Users & Group Memberships 
 - Coding Permissions 
 - Working with User Profiles & Social Features 
-- Using Microsoft Teams API 
+
+Using JavaScript Frameworks in SharePoint Develpment 
+
+- Introduction to React
+- Use Cases for React in SharePoint Development
+- Using Angular in SharePoint Remote Apps
+
+SharePoint Framework Basics (SPFx) 
+ 
+- SharePoint Framework SPFx Overview 
+- When to use SPFx / When to use other Patterns 
+- Implementing SharePoint Framework Web Parts  
+- Using Office UI Fabric React
  
 No-Code-Solutions using MS Flow & Power Apps 
  
@@ -157,8 +162,3 @@ No-Code-Solutions using MS Flow & Power Apps
 - Introduction to Microsoft Flow  
 - Using Webhooks & Connectors in Flow 
  
-SharePoint Framework Basics (SPFx) 
- 
-- SharePoint Framework SPFx Overview 
-- When to use SPFx / When to use other Patterns 
-- Implementing SharePoint Framework Web Parts  
