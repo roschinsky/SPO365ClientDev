@@ -1,10 +1,12 @@
 # Suggested Add-ons & Extensions
 
-## CKS Dev
+## Fast / Auto Deploy
+
+### CKS Dev
 
 CKS Dev is not available for VS 2017 - Patched File included in Folder
 
-### CKSDev Installation
+#### CKSDev Installation
 
 - Install CKSDev, answer warning with "yes"
 - Modifify devenv.exe.config located in: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE
@@ -18,6 +20,18 @@ CKS Dev is not available for VS 2017 - Patched File included in Folder
     <bindingRedirect oldVersion="10.0.0.0-14.0.0.0" newVersion="15.0.0.0"/>
 </dependentAssembly>
 ```
+
+### SPDevTools
+
+Inspired by CKS Dev -> does Fast Deploy for VS 2019
+
+[SPDevTools](https://marketplace.visualstudio.com/items?itemName=MarcusKaseder.SPDevTools)
+
+### SPFastDeploy
+
+Fast Deploy for Add-Ins
+
+[SPFastDeploy](https://marketplace.visualstudio.com/items?itemName=SteveCurranMVP.SPFastDeploy)
 
 ## Postman
 

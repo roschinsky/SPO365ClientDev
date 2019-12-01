@@ -1,20 +1,11 @@
-﻿console.log("script loaded - changed by cksdev");
-
-window.onload = function () {
-    console.log("window.onload executed");
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("Dom fully loaded and parsed");
-});
-
+﻿
 $(document).ready(function () {
     console.log("$(document).ready(..) executed");
     $("#contentBox").css({ "margin": "0" });
     $("#sideNavBox").css({ "display": "none" });
 });
 
-function loadPage(page, tag, loadscript) {
+function loadPage(page, tag, loadScript) {
     $.ajax({
         type: "GET",
         url: page,
@@ -27,7 +18,7 @@ function loadPage(page, tag, loadscript) {
                 $(".workbench").prepend("<div id='sampleHeading'>" + tag.innerText + "</div>");
                 $("#status").html("Current Page:<br>" + page);
 
-                if (loadscript) {
+                if (loadScript) {
                     console.clear();
                     var script = page.substr(0, page.indexOf(".html")) + ".js";
                     $.getScript(script, null);
