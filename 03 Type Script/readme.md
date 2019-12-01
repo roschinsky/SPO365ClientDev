@@ -1,4 +1,4 @@
-# SharePoint & TypeScript
+# Server Side Solutions (WSP) & TypeScript
 
 [Typescript Documentation](https://www.typescriptlang.org/docs/home.html)
 
@@ -9,8 +9,7 @@
 ## Enable Sourcemap Deploy
 
 - Unload project
-- Add this to the end of *.csproj
-- Reload project
+- Add this to the end of \*.csproj
 
 ```
 <Target Name="AddTsToContent" AfterTargets="CompileTypeScript" Condition="'$(BuildingProject)' != 'false'">
@@ -19,5 +18,7 @@
   </ItemGroup>
 </Target>
 ```
+
+- Reload project to see TypeScript Build Tab
 
 ![tsbuild](_images/tsbuild.png)
