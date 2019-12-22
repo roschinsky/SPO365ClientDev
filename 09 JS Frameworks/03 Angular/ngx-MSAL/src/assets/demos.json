@@ -1,0 +1,7 @@
+[
+  {
+    "url": "msal",
+    "title": "Azure AD Auth - MSAL",
+    "component": "AzureADComponent"
+  }
+]
