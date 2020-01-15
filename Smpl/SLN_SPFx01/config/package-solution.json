@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sln-sp-fx-01-client-side-solution",
+    "id": "2238a408-96ac-4f6e-8e28-53cb13840a56",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/sln-sp-fx-01.sppkg"
+  }
+}
