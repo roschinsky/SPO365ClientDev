@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="33831c72-a8e9-4100-b0d9-3342892adae6" 
+        solutionId="33831c72-a8e9-4100-b0d9-3342892adae6" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ADD_FirstSPAddin"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="5f6eaa95-6157-4cd1-bbf0-f2e00f7260ea" />
+  </features>
+</package>

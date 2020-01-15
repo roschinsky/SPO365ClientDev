@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADD_SecondSPAddin", "ADD_SecondSPAddin\ADD_SecondSPAddin.csproj", "{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADD_SecondSPAddinWeb", "ADD_SecondSPAddinWeb\ADD_SecondSPAddinWeb.csproj", "{ED7DD21E-E1E5-4990-9E1F-0A18A3598F61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF346A8-A566-46A1-BBDA-E2F7ACF92333}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ED7DD21E-E1E5-4990-9E1F-0A18A3598F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7DD21E-E1E5-4990-9E1F-0A18A3598F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7DD21E-E1E5-4990-9E1F-0A18A3598F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7DD21E-E1E5-4990-9E1F-0A18A3598F61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E39DE74-5FE8-48B3-BE1C-C5E029A40164}
+	EndGlobalSection
+EndGlobal
